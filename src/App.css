@@ -28,13 +28,19 @@
   grid-area: header;
 }
 
+/* MAIN - MAIN - MAIN - MAIN - MAIN - MAIN */
 .main {
   background-color: var(--secondary-color);
   color: var(--text-color);
   grid-area: main;
-  display: grid;
+  /* display: grid;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+}
+
+.general {
+  display: flex;
+  display: flex-end;
 }
 
 /* FOOTER - FOOTER - FOOTER - FOOTER */

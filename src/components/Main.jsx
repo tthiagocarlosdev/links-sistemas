@@ -1,14 +1,15 @@
 import React from 'react';
 import Button from './Button';
+import MainGeneral from './MainGeneral';
+import MainOthers from './MainOthers';
+import MainQueries from './MainQueries';
 
 const Main = () => {
   return ( 
     <div className="main">
-      <h1> Bottons </h1>
-      <div className="general">
-        <Button> POLÍCIA CIVIL PE </Button>
-      </div>
-      
+      <MainGeneral/>
+      <MainQueries/>
+      <MainOthers/>
     </div>
    );
 }

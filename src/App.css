@@ -5,6 +5,7 @@
   --quaternary-color: #435575;
   --quinary-color: #3466C2;
   --text-color:rgb(219, 219, 219);
+  --black-color: black;
 } 
 
 .container {
@@ -36,6 +37,7 @@
   justify-content: center;
 }
 
+/* FOOTER - FOOTER - FOOTER - FOOTER */
 .footer {
   background-color: var(--quinary-color);
   color: var(--text-color);
@@ -43,6 +45,31 @@
   display: grid;
   align-items: center;
   justify-content: center;
+}
+
+.footer h5 {
+  padding-top:20px
+}
+
+.buttons-social-media{
+  margin:0px;
+  padding:0px;
+  list-style: none;
+  text-decoration: none;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links-social-media{
+  font-size:40px;
+  color: var(--text-color);
+}
+
+.links-social-media:hover{
+  font-size:50px;
+  color: var(--quaternary-color);
 }
 
 /* button */

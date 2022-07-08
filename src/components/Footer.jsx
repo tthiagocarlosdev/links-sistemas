@@ -32,18 +32,18 @@ const Footer = () => {
       <footer className="footer">
         <h5> Desenvolvido por { userName } </h5>
         <nav>
-          <ul>
+          <ul className="buttons-social-media" >
             <li>
-              <a href={youtubeLink} target="_blank" > <IoLogoYoutube/> </a>
+              <a className="links-social-media" href={youtubeLink} target="_blank" > <IoLogoYoutube/> </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/tthiagocarlos.dev/" target="_blank" > <IoLogoInstagram /> </a>
+              <a className="links-social-media" href="https://www.instagram.com/tthiagocarlos.dev/" target="_blank" > <IoLogoInstagram /> </a>
             </li>
             <li>
-              <a href="mailto:tthiagocarlos.dev@gmail.com" target="_blank" > <SiGmail/> </a>
+              <a className="links-social-media" href="mailto:tthiagocarlos.dev@gmail.com" target="_blank" > <SiGmail/> </a>
             </li>
             <li>
-              <a href={github} target="_blank" > <IoLogoGithub/> </a>
+              <a className="links-social-media" href={github} target="_blank" > <IoLogoGithub/> </a>
             </li>
           </ul>
         </nav>

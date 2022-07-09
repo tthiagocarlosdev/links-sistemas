@@ -4,6 +4,7 @@ const MainQueries = () => {
   return ( 
     <div className="queries">
       <h1> Consultas </h1>
+
     </div>
    );
 }

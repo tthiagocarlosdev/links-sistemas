@@ -15,21 +15,21 @@
 
   - GERAL
 
-    - [ ] SITE POLÍCIA DE PERNAMBUCO
+    - [x] SITE POLÍCIA DE PERNAMBUCO
 
       http://www.policiacivil.pe.gov.br/
 
-    - [ ] PCPE VIRTUAL
+    - [x] PCPE VIRTUAL
 
       https://pcpevirtual.policiacivil.pe.gov.br/pcp/open.do?action=open&sys=PCP
 
-    - [ ] SEI
+    - [x] SEI
 
       https://sei.pe.gov.br/sip/login.php?sigla_orgao_sistema=GOVPE&sigla_sistema=SEI
 
-    - [ ] EXPRESSO
+    - [x] EXPRESSO
 
-      https://servicos.sds.pe.gov.br/portalsds/
+      https://www.expresso.pe.gov.br/login.php?cd=1
 
   - CONSULTAS
 

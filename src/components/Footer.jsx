@@ -9,9 +9,10 @@ import { IoLogoGithub } from "react-icons/io"
 import '../App.css'
 
 const Footer = () => {
-  const [userName, setUserName ] = useState()
+  const [ userName, setUserName ] = useState()
   const [ youtubeLink, setYoutubeLink ] = useState()
-  const [ github, setGithub] = useState()
+  const [ intagramLink, setIntagramLink ] = useState()
+  const [ github, setGithub ] = useState()
 
   useEffect(() => {
     const fetchData = async () => {
@@ -20,38 +21,29 @@ const Footer = () => {
       setUserName(data.login)
       setYoutubeLink(data.blog)
       setGithub(data.html_url)
-
+      setIntagramLink(data.company)
+      console.log(data)
     }
-
+    
     fetchData()
 
   }, [])
 
   return ( 
     
-      <footer className="footer">
-        <h5> Desenvolvido por { userName } </h5>
-        <nav>
-          <ul className="buttons-social-media" >
-            <li>
-              <a className="links-social-media" href={youtubeLink} target="_blank" > <IoLogoYoutube/> </a>
-            </li>
-            <li>
-              <a className="links-social-media" href="https://www.instagram.com/tthiagocarlos.dev/" target="_blank" > <IoLogoInstagram /> </a>
-            </li>
-            <li>
-              <a className="links-social-media" href="mailto:tthiagocarlos.dev@gmail.com" target="_blank" > <SiGmail/> </a>
-            </li>
-            <li>
-              <a className="links-social-media" href={github} target="_blank" > <IoLogoGithub/> </a>
-            </li>
-          </ul>
-        </nav>
-        
-        
-      
-        
-      </footer>
+      <div className="footer">
+        <h4> Desenvolvido por { userName } </h4>
+        <div className="buttons-social-media">
+          <nav>
+            <ul className="buttons">
+              <li><a className="links-social-media" href={youtubeLink} target="_blank" > <IoLogoYoutube/> </a> </li>
+              <li><a className="links-social-media" href={intagramLink} target="_blank" > <IoLogoInstagram /> </a></li>
+              <li><a className="links-social-media" href="mailto:tthiagocarlos.dev@gmail.com" target="_blank" > <SiGmail/> </a></li>
+              <li><a className="links-social-media" href={github} target="_blank" > <IoLogoGithub/> </a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     
    );
 }

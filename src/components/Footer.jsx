@@ -22,7 +22,7 @@ const Footer = () => {
       setYoutubeLink(data.blog)
       setGithub(data.html_url)
       setIntagramLink(data.company)
-      console.log(data)
+      // console.log(data)
     }
     
     fetchData()

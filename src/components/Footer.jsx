@@ -31,18 +31,14 @@ const Footer = () => {
 
   return ( 
     
-      <div className="footer">
-        <h4> Desenvolvido por { userName } </h4>
-        <div className="buttons-social-media">
-          <nav>
-            <ul className="buttons">
-              <li><a className="links-social-media" href={youtubeLink} target="_blank" > <IoLogoYoutube/> </a> </li>
-              <li><a className="links-social-media" href={intagramLink} target="_blank" > <IoLogoInstagram /> </a></li>
-              <li><a className="links-social-media" href="mailto:tthiagocarlos.dev@gmail.com" target="_blank" > <SiGmail/> </a></li>
-              <li><a className="links-social-media" href={github} target="_blank" > <IoLogoGithub/> </a></li>
-            </ul>
-          </nav>
-        </div>
+      <div className="box-footer">
+        <p className="footer-title"> Desenvolvido por tthiagocarlosdev </p>
+          <ul className="links-social-media">
+            <li><a href={youtubeLink} target="_blank" > <IoLogoYoutube/> </a> </li>
+            <li><a href={intagramLink} target="_blank" > <IoLogoInstagram /> </a></li>
+            <li><a href="mailto:tthiagocarlos.dev@gmail.com" target="_blank" > <SiGmail/> </a></li>
+            <li><a href={github} target="_blank" > <IoLogoGithub/> </a></li>
+          </ul>
       </div>
     
    );

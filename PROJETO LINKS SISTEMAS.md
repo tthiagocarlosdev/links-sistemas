@@ -33,49 +33,49 @@
 
   - CONSULTAS
 
-    - [ ] INFOSEG
+    - [x] INFOSEG
 
       https://seguranca.sinesp.gov.br/sinesp-seguranca/login.jsf
 
-    - [ ] INFOPOL
+    - [x] INFOPOL
 
       http://200.238.83.149/pernambuco/
 
-    - [ ] POLÍCIA ÁGIL
+    - [x] POLÍCIA ÁGIL
 
       https://policiaagil.sds.pe.gov.br/paginainicial
 
-    - [ ] SIAP
+    - [x] SIAP
 
       https://www.siap.pe.gov.br/SIAP/public/pages/login.jsf
 
-    - [ ] BNMP
+    - [x] BNMP
 
       https://portalbnmp.cnj.jus.br/#/captcha/
 
-    - [ ] RECEITA FEDERAL
+    - [x] RECEITA FEDERAL
 
       https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp
 
   - OUTROS
 
-    - [ ] CONTRA-CHEQUE
+    - [x] CONTRA-CHEQUE
 
       https://www.sare.pe.gov.br/contracheque/
 
-    - [ ] SISTEMA DE PERÍCIAS MÉDICAS - SPM
+    - [x] SISTEMA DE PERÍCIAS MÉDICAS - SPM
 
       https://www.sadspm.pe.gov.br/web
 
-    - [ ] JUNTAR PDF'S
+    - [x] JUNTAR PDF'S
 
       https://pdfjoiner.com/pt/
 
-    - [ ] DEPÓSITOS JUDICIAIS
+    - [x] DEPÓSITOS JUDICIAIS
 
       https://depositojudicial.caixa.gov.br/sigsj_internet/depositos-judiciais/justica-estadual/
 
-    - [ ] GERADOR DE SENHA
+    - [x] GERADOR DE SENHA
 
       https://tthiagocarlosdev.github.io/geradordesenha/
 

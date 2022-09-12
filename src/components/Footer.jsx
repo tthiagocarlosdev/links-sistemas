@@ -5,14 +5,17 @@ import { IoLogoYoutube } from "react-icons/io"
 import { IoLogoInstagram } from "react-icons/io"
 import { SiGmail } from "react-icons/si"
 import { IoLogoGithub } from "react-icons/io"
+import { BsLinkedin } from "react-icons/bs"
 
 import '../App.css'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const [ userName, setUserName ] = useState()
   const [ youtubeLink, setYoutubeLink ] = useState()
   const [ intagramLink, setIntagramLink ] = useState()
   const [ github, setGithub ] = useState()
+  const [ linkedin, setLinkedin ]  = useState("https://www.linkedin.com/in/thiago-carlos-80a480244")
 
   useEffect(() => {
     const fetchData = async () => {
@@ -38,6 +41,7 @@ const Footer = () => {
             <li><a href={intagramLink} target="_blank" > <IoLogoInstagram /> </a></li>
             <li><a href="mailto:tthiagocarlos.dev@gmail.com" target="_blank" > <SiGmail/> </a></li>
             <li><a href={github} target="_blank" > <IoLogoGithub/> </a></li>
+            <li><a href={linkedin} target="_blank" > <BsLinkedin/> </a></li>
           </ul>
       </div>
     
@@ -45,10 +49,3 @@ const Footer = () => {
 }
  
 export default Footer;
-
-/* 
-IoLogoYoutube
-IoLogoInstagram
-SiGmail
-IoLogoGithub
-*/

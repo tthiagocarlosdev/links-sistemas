@@ -127,7 +127,8 @@
 
 .main .box-general .links-general a,
 .main .box-queries .links-queries a,
-.main .box-others .links-others a {
+.main .box-others .links-others a,
+.button {
 	display: flex;
 	width: 9.5rem;
   height: 3rem;
@@ -146,10 +147,12 @@
 
 .main .box-general .links-general a:hover,
 .main .box-queries .links-queries a:hover,
-.main .box-others .links-others a:hover {
+.main .box-others .links-others a:hover,
+.button:hover {
 	background-color: var(--gray);
 	box-shadow: none;
 	border: 1px solid var(--blue);
+  cursor: pointer;
 }
 
 /* BOX-FOOTER - BOX-FOOTER - BOX-FOOTER - BOX-FOOTER - BOX-FOOTER */
@@ -235,7 +238,8 @@
   flex-flow: wrap;
 }
 
-.box-dti .links-dti a {
+.box-dti .links-dti a,
+.button-goback {
 	display: flex;
 	width: 9.5rem;
   height: 3rem;
@@ -252,8 +256,10 @@
 	box-shadow: black 0.2rem 0.2rem 0.5rem;
 }
 
-.box-dti .links-dti a:hover {
+.box-dti .links-dti a:hover,
+.button-goback:hover {
 	background-color: var(--gray);
 	box-shadow: none;
 	border: 1px solid var(--blue);
+  cursor: pointer;
 }

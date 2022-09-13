@@ -1,10 +1,7 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom'
-
-import Button from '../components/Button';
 
  const MainGeneral = () => {
-  let navigate = useNavigate()
+  
 
   return ( 
     <div className="box-general">
@@ -14,7 +11,7 @@ import Button from '../components/Button';
         <li> <a href="https://pcpevirtual.policiacivil.pe.gov.br/pcp/open.do?action=open&sys=PCP" target="_blank" > PCPE VIRTUAL </a></li>
         <li> <a href="https://sei.pe.gov.br/sip/login.php?sigla_orgao_sistema=GOVPE&sigla_sistema=SEI" target="_blank" > SEI </a></li>
         <li> <a href="https://www.expresso.pe.gov.br/login.php?cd=1" target="_blank" >  EXPRESSO </a></li>
-        {/* <Button onClink={()=> navigate('/dti')} > DTI </Button> */}
+        <li> <a href="/dti" target="_blank" >  DTI </a></li>
       </ul>
       
     </div>

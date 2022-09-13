@@ -9,13 +9,13 @@ const Dti = () => {
   return ( 
     <div className="container">
         <Header/>
-        <div className="main">
-        <h1 className="title-general"> DTI </h1>
-        <ul className="links-general">
-            <li> <a href="http://200.238.83.219/old-PCPE/rse.htm" target="_blank" > RELATÓRIO </a></li>
-            <li> <a href="http://200.238.83.219/old-PCPE/JAVA/" target="_blank" > JAVA </a></li>
-            <li> <a href="http://200.238.83.219/old-PCPE/AD/" target="_blank" > SEI </a></li>
-        </ul>
+        <div className="box-dti">
+          <h1 className="title-dti"> DTI </h1>
+          <ul className="links-dti">
+              <li> <a href="http://200.238.83.219/old-PCPE/rse.htm" target="_blank" > RELATÓRIO </a></li>
+              <li> <a href="http://200.238.83.219/old-PCPE/JAVA/" target="_blank" > JAVA </a></li>
+              <li> <a href="http://200.238.83.219/old-PCPE/AD/" target="_blank" > ANYDESK </a></li>
+          </ul>
         </div>
         <Footer/>
       </div>

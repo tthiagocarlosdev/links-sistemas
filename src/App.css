@@ -238,8 +238,7 @@
   flex-flow: wrap;
 }
 
-.box-dti .links-dti a,
-.button-goback {
+.box-dti .links-dti a {
 	display: flex;
 	width: 9.5rem;
   height: 3rem;
@@ -256,7 +255,32 @@
 	box-shadow: black 0.2rem 0.2rem 0.5rem;
 }
 
-.box-dti .links-dti a:hover,
+.box-dti .links-dti a:hover {
+	background-color: var(--gray);
+	box-shadow: none;
+	border: 1px solid var(--blue);
+  cursor: pointer;
+}
+
+.button-goback {
+	display: block;
+  position: fixed;
+  top: 2.4rem;
+	width: 9.5rem;
+  height: 3rem;
+	justify-content: center;
+  align-items: center;
+  text-align: center;
+	text-decoration: none;
+	padding: 0.5rem;
+	background-color: var(--card-background-color);
+	color: var(--blue);
+	border: 1px solid var(--white-color);
+	border-radius: 5px;
+	margin-left: 2rem;
+	box-shadow: black 0.2rem 0.2rem 0.5rem;
+}
+
 .button-goback:hover {
 	background-color: var(--gray);
 	box-shadow: none;

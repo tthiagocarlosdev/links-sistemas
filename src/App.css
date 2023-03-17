@@ -15,25 +15,25 @@
 
 @media(max-width:1080px){
   html{
-    font-size: 93.75%;
+    font-size: 90%;
   }
 }
 
 @media(max-width:720px){
   html{
-    font-size: 87.5%;
+    font-size: 80%;
   }
 }
 
 @media(max-width:500px){
   html{
-    font-size: 82.5%;
+    font-size: 60%;
   }
 }
 
 @media(max-width:300px){
   html{
-    font-size: 75.5%;
+    font-size: 50%;
   }
 }
 

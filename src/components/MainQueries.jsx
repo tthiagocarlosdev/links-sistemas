@@ -12,6 +12,7 @@ const MainQueries = () => {
           <li> <a href="https://www.siap.pe.gov.br/SIAP/public/pages/login.jsf" target="_blank"> SIAP </a></li>
           <li> <a href="https://portalbnmp.cnj.jus.br/#/captcha/" target="_blank"> BNMP </a></li>
           <li> <a href="https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp" target="_blank"> RECEITA FEDERAL </a></li>
+          {/* <li> <a href="https://pje.tjpe.jus.br/1g/login.seam" target="_blank"> PJE </a></li> */}
         </ul>
     </div>
    );

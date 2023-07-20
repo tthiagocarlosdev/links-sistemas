@@ -21,6 +21,7 @@ const Dti = () => {
           <h1 className="title-dti"> DTI </h1>
           <ul className="links-dti">
               <li> <a href="http://200.238.83.219/old-PCPE/rse.htm" target="_blank" > RELATÓRIO </a></li>
+              <li> <a href="https://tthiagocarlosdev.github.io/projects_website/relatorio_de_servicos_externos/index.html" target="_blank" > RELATÓRIO NOVO </a></li>
               <li> <a href="http://200.238.83.219/old-PCPE/JAVA/" target="_blank" > JAVA </a></li>
               <li> <a href="http://200.238.83.219/old-PCPE/AD/" target="_blank" > ANYDESK </a></li>
           </ul>

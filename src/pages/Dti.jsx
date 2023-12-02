@@ -15,8 +15,7 @@ const Dti = () => {
 
   return ( 
     <div className="container">
-        <Header/>
-        <button onClick={handleGoBack} className="button-goback" > VOLTAR </button>
+        <Header showGoBackButton={true} onGoBack={handleGoBack} />
         <div className="box-dti">
           <h1 className="title-dti"> DTI </h1>
           <ul className="links-dti">

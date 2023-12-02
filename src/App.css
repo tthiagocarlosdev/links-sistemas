@@ -49,9 +49,10 @@
 /* HEADER - HEADER - HEADER - HEADER - HEADER - HEADER */
 .header {
   background-color: var(--blue);
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   order: 1;
   flex: 1;
@@ -61,7 +62,7 @@
   font-size: 2rem;
   color: var(--white);
   padding: 1rem;
-  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 /* MAIN - MAIN - MAIN - MAIN - MAIN - MAIN */
@@ -70,6 +71,7 @@
   flex-direction: column;
   order: 2;
   flex: 4;
+  padding: 2rem 1rem;
 }
 
 .main .box-general {
@@ -77,6 +79,7 @@
   flex-direction: row;
   order: 1;
   flex: 1;
+  padding-bottom: 1rem;
 }
 
 .main .box-queries {
@@ -86,6 +89,7 @@
 	flex: 2;
 	display: flex;
 	flex-direction: row;
+  padding: 1rem 0;
 }
 
 .main .box-others {
@@ -93,6 +97,7 @@
 	flex: 1;
 	display: flex;
 	flex-direction: row;
+  padding-top: 1rem;
 }
 
 /* TITLES - TITLES- TITLES- TITLES - TITLES*/
@@ -143,6 +148,7 @@
 	border-radius: 5px;
 	margin-left:0.5rem;
 	box-shadow: black 0.2rem 0.2rem 0.5rem;
+  margin: 0.5rem;
 }
 
 .main .box-general .links-general a:hover,
@@ -201,6 +207,7 @@
 	border: 1px solid var(--white-color);
 	border-radius: 5px;
 	box-shadow: black 0.2rem 0.2rem 0.5rem;
+  margin: 0.5rem;
 }
 
 .box-footer .links-social-media a:hover {
@@ -262,28 +269,6 @@
   cursor: pointer;
 }
 
-.button-goback {
-	display: block;
-  position: fixed;
-  top: 2.4rem;
-	width: 9.5rem;
-  height: 3rem;
-	justify-content: center;
-  align-items: center;
-  text-align: center;
-	text-decoration: none;
-	padding: 0.5rem;
-	background-color: var(--card-background-color);
-	color: var(--blue);
-	border: 1px solid var(--white-color);
-	border-radius: 5px;
-	margin-left: 2rem;
-	box-shadow: black 0.2rem 0.2rem 0.5rem;
-}
-
-.button-goback:hover {
-	background-color: var(--gray);
-	box-shadow: none;
-	border: 1px solid var(--blue);
-  cursor: pointer;
+.buttonGoback{
+  margin-right: 2rem;
 }

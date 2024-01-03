@@ -33,16 +33,19 @@ const Footer = () => {
   }, [])
 
   return ( 
-    
-      <div className="box-footer">
-        <p className="footer-title"> Desenvolvido por tthiagocarlosdev </p>
-          <ul className="links-social-media">
-            <li><a href={youtubeLink} target="_blank" > <IoLogoYoutube/> </a> </li>
-            <li><a href={intagramLink} target="_blank" > <IoLogoInstagram /> </a></li>
-            <li><a href="mailto:tthiagocarlos.dev@gmail.com" target="_blank" > <SiGmail/> </a></li>
-            <li><a href={github} target="_blank" > <IoLogoGithub/> </a></li>
-            <li><a href={linkedin} target="_blank" > <BsLinkedin/> </a></li>
-          </ul>
+      <div className="boxFooter">
+        <div className="boxTitleFooter">
+          <p className="footerTitle"> Desenvolvido por <span>tthiagocarlosdev</span> </p>
+        </div>
+        <div className="boxLinksFooter">
+          <ul className="linksSocialMedia">
+              <li><a className="buttonsSocialMedia" href={youtubeLink} target="_blank" > <IoLogoYoutube/> </a> </li>
+              <li><a className="buttonsSocialMedia" href={intagramLink} target="_blank" > <IoLogoInstagram /> </a></li>
+              <li><a className="buttonsSocialMedia" href="mailto:tthiagocarlos.dev@gmail.com" target="_blank" > <SiGmail/> </a></li>
+              <li><a className="buttonsSocialMedia" href={github} target="_blank" > <IoLogoGithub/> </a></li>
+              <li><a className="buttonsSocialMedia" href={linkedin} target="_blank" > <BsLinkedin/> </a></li>
+            </ul>
+        </div>
       </div>
     
    );

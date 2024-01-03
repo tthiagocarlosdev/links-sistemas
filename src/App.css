@@ -50,12 +50,13 @@
 .header {
   background-color: var(--blue);
   width: 100%;
+  height: 9.375rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   order: 1;
-  flex: 1;
+  /* flex: 1; */
 }
 
 .header h1 {		
@@ -71,39 +72,42 @@
   flex-direction: column;
   order: 2;
   flex: 4;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
 }
 
-.main .box-general {
+.boxGeneral, .boxOthers, .boxQueries {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.boxQueries {
+  flex: 2;
+  border-top: 1px solid var(--blue);
+  border-bottom: 1px solid var(--blue);
+}
+
+.boxTitle {
+  flex: 1 1 9.375rem;
+}
+
+.boxLinks, .links {
+  flex: 1 1 37.5rem;
   display: flex;
   flex-direction: row;
-  order: 1;
-  flex: 1;
-  padding-bottom: 1rem;
-}
-
-.main .box-queries {
-	border-top: 1px solid var(--blue);
-	border-bottom: 1px solid var(--blue);
-	order: 2;
-	flex: 2;
-	display: flex;
-	flex-direction: row;
-  padding: 1rem 0;
-}
-
-.main .box-others {
-	order: 3;
-	flex: 1;
-	display: flex;
-	flex-direction: row;
-  padding-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  gap: 1.25rem;
 }
 
 /* TITLES - TITLES- TITLES- TITLES - TITLES*/
-.main .box-general .title-general,
-.main .box-queries .title-queries,
-.main .box-others .title-others {
+
+.subTitles {
   display: flex;
   flex-direction: row;
   flex: 1;
@@ -116,23 +120,12 @@
 }
 
 /* LINKS - LINKS - LINKS - LINKS - LINKS - LINKS - LINKS*/
-.main .box-queries .links-queries,
-.main .box-general .links-general ,
-.main .box-others .links-others {
+.links {
   list-style: none;
-  flex: 3;
-  display: flex;
-  flex-direction:row;
-  justify-content: center;
-  align-items: center;
-  flex-flow: wrap;
 }
 
 /* LINKS-BOTTONS - LINKS-BOTTONS - LINKS-BOTTONS - LINKS-BOTTONS - LINKS-BOTTONS */
 
-.main .box-general .links-general a,
-.main .box-queries .links-queries a,
-.main .box-others .links-others a,
 .button {
 	display: flex;
 	width: 9.5rem;
@@ -146,14 +139,10 @@
 	color: var(--blue);
 	border: 1px solid var(--white-color);
 	border-radius: 5px;
-	margin-left:0.5rem;
 	box-shadow: black 0.2rem 0.2rem 0.5rem;
   margin: 0.5rem;
 }
 
-.main .box-general .links-general a:hover,
-.main .box-queries .links-queries a:hover,
-.main .box-others .links-others a:hover,
 .button:hover {
 	background-color: var(--gray);
 	box-shadow: none;
@@ -162,37 +151,46 @@
 }
 
 /* BOX-FOOTER - BOX-FOOTER - BOX-FOOTER - BOX-FOOTER - BOX-FOOTER */
-.box-footer {
+.boxFooter {
 	display: flex;
 	flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 	order: 3;
 	flex: 0.5;
 	background-color:var(--card-color);
 	border-top: 1px solid var(--blue);
 }
 
-.box-footer .footer-title {
+.footerTitle {
 	color: var(--white-color);
-	flex: 1;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-	align-items: center;
-	padding: 1em;
 }
 
-.box-footer .links-social-media {
+.boxTitleFooter {
+  flex: 1 1 21.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.boxTitleFooter span {
+  font-weight: bold;
+}
+
+.boxLinksFooter {
+  flex: 1 1 21.875rem;
+}
+
+.linksSocialMedia {
 	list-style: none;
-	flex: 1.5;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
-	padding:0.5rem;
-	flex-flow: wrap;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
 }
 
-.box-footer .links-social-media a {
+.buttonsSocialMedia {
   cursor: pointer;
 	display: flex;
 	width: 5rem;
@@ -210,7 +208,7 @@
   margin: 0.5rem;
 }
 
-.box-footer .links-social-media a:hover {
+.buttonsSocialMedia:hover {
 	background-color: var(--blue);
   color: var(--white-color);
 }

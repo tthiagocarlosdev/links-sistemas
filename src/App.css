@@ -50,7 +50,8 @@
 .header {
   background-color: var(--blue);
   width: 100%;
-  min-height: 7.5rem;
+  /* min-height: 7.5rem; */
+  flex: 1 1;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -156,63 +157,62 @@
 
 /* BOX-FOOTER - BOX-FOOTER - BOX-FOOTER - BOX-FOOTER - BOX-FOOTER */
 .boxFooter {
-	min-height: 6.25rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-	order: 3;
-	flex: 1 1;
-	background-color:var(--card-color);
-	border-top: 1px solid var(--blue);
-  color: var(--white-color);
+    display: flex;
+    order: 3;
+    flex: 0.5 1;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    background-color:var(--card-color);
+    border-top: 1px solid var(--blue);
+    color: var(--white-color);
 }
 
 .boxTitleFooter {
   flex: 1 1 21.875rem;
+  color: var(--white);
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 50%;
+  padding: 1rem;
 }
 
 .boxTitleFooter span {
   font-weight: bold;
 }
 
-.boxLinksFooter {
-  flex: 1 1 21.875rem;
-  height: 50%;
-}
-
 .linksSocialMedia {
+  list-style: none;
   flex: 1 1 21.875rem;
-	list-style: none;
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  padding:1rem;
+  flex-flow: wrap;
 }
 
 .buttonsSocialMedia {
+  margin: 0.5rem;
   cursor: pointer;
-	display: flex;
-	width: 5rem;
+  display: flex;
+  width: 5rem;
   height: 1rem;
-	justify-content: center;
+  justify-content: center;
   align-items: center;
-	text-decoration: none;
-	padding: 1rem;
+  text-decoration: none;
+  padding: 1rem;
   margin-left:1rem;
   background-color: var(--card-background-color);
-	color: var(--blue);
-	border: 1px solid var(--white-color);
-	border-radius: 5px;
-	box-shadow: black 0.2rem 0.2rem 0.5rem;
-  margin: 0.5rem;
+  color: var(--blue);
+  border-radius: 5px;
+  box-shadow: var(--black) 0.2rem 0.2rem 0.5rem;
 }
 
 .buttonsSocialMedia:hover {
-	background-color: var(--blue);
-  color: var(--white-color);
+  	background-color: var(--blue);
+    color: var(--white-color);
 }
 
 /* PAGE DTI PAGE DTI PAGE DTI PAGE DTI PAGE DTI PAGE DTI */

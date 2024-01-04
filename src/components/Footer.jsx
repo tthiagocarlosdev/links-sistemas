@@ -37,15 +37,13 @@ const Footer = () => {
         <div className="boxTitleFooter">
           <p className="footerTitle"> Desenvolvido por <span>tthiagocarlosdev</span> </p>
         </div>
-        <div className="boxLinksFooter">
-          <ul className="linksSocialMedia">
-              <li><a className="buttonsSocialMedia" href={youtubeLink} target="_blank" > <IoLogoYoutube/> </a> </li>
-              <li><a className="buttonsSocialMedia" href={intagramLink} target="_blank" > <IoLogoInstagram /> </a></li>
-              <li><a className="buttonsSocialMedia" href="mailto:tthiagocarlos.dev@gmail.com" target="_blank" > <SiGmail/> </a></li>
-              <li><a className="buttonsSocialMedia" href={github} target="_blank" > <IoLogoGithub/> </a></li>
-              <li><a className="buttonsSocialMedia" href={linkedin} target="_blank" > <BsLinkedin/> </a></li>
-            </ul>
-        </div>
+        <ul className="linksSocialMedia">
+          <li><a className="buttonsSocialMedia" href={youtubeLink} target="_blank" > <IoLogoYoutube/> </a> </li>
+          <li><a className="buttonsSocialMedia" href={intagramLink} target="_blank" > <IoLogoInstagram /> </a></li>
+          <li><a className="buttonsSocialMedia" href="mailto:tthiagocarlos.dev@gmail.com" target="_blank" > <SiGmail/> </a></li>
+          <li><a className="buttonsSocialMedia" href={github} target="_blank" > <IoLogoGithub/> </a></li>
+          <li><a className="buttonsSocialMedia" href={linkedin} target="_blank" > <BsLinkedin/> </a></li>
+        </ul>
       </div>
     
    );

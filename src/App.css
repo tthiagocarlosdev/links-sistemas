@@ -156,7 +156,7 @@
 
 /* BOX-FOOTER - BOX-FOOTER - BOX-FOOTER - BOX-FOOTER - BOX-FOOTER */
 .boxFooter {
-	min-height: 100px;
+	min-height: 6.25rem;
   display: flex;
   justify-content: center;
   align-items: center;

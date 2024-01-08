@@ -16,6 +16,7 @@ import React from 'react';
           <li> <a className="button" href="https://pje.tjpe.jus.br/1g/login.seam" target="_blank" > PJE </a></li>
           <li> <a className="button" href="https://www.expresso.pe.gov.br/login.php?cd=1" target="_blank" >  EXPRESSO </a></li>
           <li> <a className="button" href="https://drive.expresso.pe.gov.br/login" target="_blank" >  DRIVE PE </a></li>
+          <li> <a className="button" href="https://plantaodigital.pc.pe.gov.br/#/controle" target="_blank" >  SCPD </a></li>
         </ul>
       </div>
     </div>

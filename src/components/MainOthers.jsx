@@ -22,6 +22,7 @@ const MainOthers = () => {
       <div className="boxLinks">
         <ul className="links">
             <button onClick={hadleGoDtiPage} className="button" > DTI </button>
+            <li> <a className="button" href="https://videoconferencia.pe.gov.br/b/" target="_blank"> VÍDEO CONFERÊNCIA </a></li>
             <li> <a className="button" href="https://www.sare.pe.gov.br/contracheque/" target="_blank"> CONTRA-CHEQUE </a></li>
             <li> <a className="button" href="http://web.transparencia.pe.gov.br/despesas/desp-diarias/" target="_blank"> DIÁRIAS </a></li>
             <li> <a className="button" href="https://diarias.pc.pe.gov.br/#/controle" target="_blank"> SCD </a></li>

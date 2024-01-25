@@ -18,6 +18,7 @@ const MainQueries = () => {
             <li> <a className="button" href="https://portalbnmp.cnj.jus.br/#/captcha/" target="_blank"> BNMP </a></li>
             <li> <a className="button" href="https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp" target="_blank"> RECEITA FEDERAL </a></li>
             <li> <a className="button" href="http://189.39.115.178:8082/" target="_blank"> AUTOVISION </a></li>
+            <li> <a className="button" href="https://www.sds.pe.gov.br/sace/login" target="_blank"> SACE </a></li>
           </ul>
       </div>
     </div>

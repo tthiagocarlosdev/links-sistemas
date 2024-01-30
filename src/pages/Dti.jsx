@@ -22,6 +22,7 @@ const Dti = () => {
           </div>
           <div className="boxLinks">
             <ul className="links linksDti">
+              <li> <a className="button" href="https://wa.me/5581994884114/" target="_blank" > PLANTÃO DTI </a></li>
               <li> <a className="button" href="https://tthiagocarlosdev.github.io/projects_website/relatorio_de_servicos_externos/index.html" target="_blank" > RELATÓRIO </a></li>
               <li> <a className="button" href="https://glpi.pc.pe.gov.br/" target="_blank" > GLPI </a></li>
               <li> <a className="button" href="https://spp-treinamento.pc.pe.gov.br/#/controle" target="_blank" > SPP TREINAMENTO </a></li>

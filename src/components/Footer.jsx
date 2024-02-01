@@ -22,10 +22,13 @@ const Footer = () => {
       const { data } = await axios.get('https://api.github.com/users/tthiagocarlosdev')
       
       setUserName(data.login)
-      setYoutubeLink(data.blog)
+      // setYoutubeLink(data.blog)
       setGithub(data.html_url)
-      setIntagramLink(data.company)
-      // console.log(data)
+      // setIntagramLink(data.company)
+      console.log(data)
+
+      setYoutubeLink("https://www.youtube.com/channel/UCZN-uQtc4UDQt_tLu-I7Wpw")
+      setIntagramLink("https://www.instagram.com/tthiagocarlos.dev/")
     }
     
     fetchData()

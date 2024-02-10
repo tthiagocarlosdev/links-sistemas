@@ -29,6 +29,7 @@ const Dti = () => {
               <li> <a className="button" href="http://200.238.83.219/old-PCPE/JAVA/" target="_blank" > JAVA </a></li>
               <li> <a className="button" href="http://200.238.83.219/old-PCPE/AD/" target="_blank" > ANYDESK </a></li>
               <li> <a className="button" href="http://187.33.66.90:8082/" target="_blank" > AUTOVISION </a></li>
+              <li> <a className="button" href="https://scp.pc.pe.gov.br/scp/#/controle" target="_blank" > SCP </a></li>
             </ul>
           </div>
           

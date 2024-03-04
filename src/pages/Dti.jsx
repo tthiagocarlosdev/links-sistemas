@@ -28,8 +28,10 @@ const Dti = () => {
               <li> <a className="button" href="https://spp-treinamento.pc.pe.gov.br/#/controle" target="_blank" > SPP TREINAMENTO </a></li>
               <li> <a className="button" href="http://200.238.83.219/old-PCPE/JAVA/" target="_blank" > JAVA </a></li>
               <li> <a className="button" href="http://200.238.83.219/old-PCPE/AD/" target="_blank" > ANYDESK </a></li>
+              <li> <a className="button" href="https://www.naps2.com/download" target="_blank" > NAPS2 </a></li>
               <li> <a className="button" href="http://187.33.66.90:8082/" target="_blank" > AUTOVISION </a></li>
               <li> <a className="button" href="https://scp.pc.pe.gov.br/scp/#/controle" target="_blank" > SCP </a></li>
+              <li> <a className="button" href="https://app.powerbi.com/view?r=eyJrIjoiN2Y2ODBkYTktMWQ1Zi00YzA0LWExYzUtMjdhMDE4ODNhODE3IiwidCI6Ijk3ZjU2ODZlLTBlM2QtNDAzNS04MjZkLTMwM2EzMmI3Mjk0MiJ9" target="_blank" title="Acompanhamento do Vencimento dos Certificados Digitais!" > CERTIFICADOS DIGITAIS </a></li>
             </ul>
           </div>
           

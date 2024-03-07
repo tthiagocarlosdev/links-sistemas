@@ -13,12 +13,12 @@ const MainQueries = () => {
             <li> <a className="button" href="https://servicos.sds.pe.gov.br/portalsds/" target="_blank"> PORTAL WEB </a></li>
             <li> <a className="button" href="https://certidao.sds.pe.gov.br/#" target="_blank"> BOLETIM INTEGRADO </a></li>
             <li> <a className="button" href="https://policiaagil.sds.pe.gov.br" target="_blank"> POLÍCIA ÁGIL </a></li>
-            <li> <a className="button" href="https://www.siap.pe.gov.br/SIAP/public/pages/login.jsf" target="_blank"> SIAP </a></li>
-            <li> <a className="button" href="https://spba.pc.pe.gov.br/spba/#/controle" target="_blank"> SPBA </a></li>
-            <li> <a className="button" href="https://portalbnmp.cnj.jus.br/#/captcha/" target="_blank"> BNMP </a></li>
+            <li> <a className="button" href="https://www.siap.pe.gov.br/SIAP/public/pages/login.jsf" target="_blank" title="Sistema Integrado de Administração Prisional"> SIAP </a></li>
+            <li> <a className="button" href="https://spba.pc.pe.gov.br/spba/#/controle" target="_blank" title="Sistema Pernambucano de Bens Apreendidos"> SPBA </a></li>
+            <li> <a className="button" href="https://portalbnmp.cnj.jus.br/#/captcha/" target="_blank" title="Banco Nacional de Mandados de Prisão"> BNMP </a></li>
             <li> <a className="button" href="https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp" target="_blank"> RECEITA FEDERAL </a></li>
             <li> <a className="button" href="http://189.39.115.178:8082/" target="_blank"> AUTOVISION </a></li>
-            <li> <a className="button" href="https://www.sds.pe.gov.br/sace/login" target="_blank"> SACE </a></li>
+            <li> <a className="button" href="https://www.sds.pe.gov.br/sace/login" target="_blank" title="Gerência Geral de Análise Criminal e Estatística"> SACE </a></li>
           </ul>
       </div>
     </div>

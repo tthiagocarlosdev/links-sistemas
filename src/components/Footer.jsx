@@ -16,10 +16,11 @@ const Footer = () => {
   const [ intagramLink, setIntagramLink ] = useState()
   const [ github, setGithub ] = useState()
   const [ linkedin, setLinkedin ]  = useState("https://www.linkedin.com/in/thiago-carlos-80a480244")
+  const userGithub = 'tthiagocarlosdev'
 
   useEffect(() => {
     const fetchData = async () => {
-      const { data } = await axios.get('https://api.github.com/users/tthiagocarlosdev')
+      const { data } = await axios.get(`https://api.github.com/users/${userGithub}`)
       
       setUserName(data.login)
       // setYoutubeLink(data.blog)

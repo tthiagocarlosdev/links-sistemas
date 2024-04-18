@@ -41,30 +41,24 @@
   display: flex;
   flex-direction: column;
   height:100vh;
+  width: 100%;
   background-color: var(--white);
+}
+
+.pageWidth {
+  width: 1280px;
+  /* border: 1px solid red; */
+}
+
+.displayFlexCenterCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* COMPONENTS - COMPONENTS - COMPONENTS - COMPONENTS */
 
-/* HEADER - HEADER - HEADER - HEADER - HEADER - HEADER */
-.header {
-  background-color: var(--blue);
-  width: 100%;
-  /* min-height: 7.5rem; */
-  flex: 1 1;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  order: 1;
-}
 
-.header h1 {		
-  font-size: 2rem;
-  color: var(--white);
-  padding: 1rem;
-  margin-left: 1rem;
-}
 
 /* MAIN - MAIN - MAIN - MAIN - MAIN - MAIN */
 .main {

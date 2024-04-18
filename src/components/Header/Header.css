@@ -1,0 +1,39 @@
+
+
+/* HEADER - HEADER - HEADER - HEADER - HEADER - HEADER */
+.sectionHeader {
+    background-color: var(--blue);
+    width: 100%;
+    height: 9.375rem;
+    padding: 1rem;
+}
+
+.containerHeader {
+    height: 100%;
+}
+
+.containerTitleText {
+    /* background-color: purple; */
+    flex: 1 1 50%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.title {
+    font-size: 4.25rem;
+    color: var(--white);
+}
+
+.containerHeaderImages {
+    /* background-color: palevioletred; */
+    flex: 1 1 50%;
+    height: 100%;
+    gap: 0.625rem;
+    justify-content: flex-end;
+}
+  
+
+.headerImages {
+    /* width: 9.375rem; */
+    height: 90%;
+}

@@ -1,0 +1,34 @@
+.websiteCards {
+    flex-direction: column;
+    width: calc((100% / 5) - 2.5rem);
+    gap: 1rem;
+    padding: 0.8rem;
+    box-shadow: 0 0 0.5rem 0.313rem var(--card-background-box-shadow);
+    border-radius: 0.188rem;
+    background-color: var(--blue);
+}
+
+.cardImage {
+    width: 100%;
+    box-shadow: 0 0 0.5rem 0.1rem var(--card-background-box-shadow);
+    border-radius: 0.188rem;
+}
+
+.buttonGoToWebsite {
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.188rem;
+    background-color: var(--white);
+    color: var(--blue);
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+
+.buttonGoToWebsite:hover {
+    background-color: var(--blue);
+    color: var(--white);
+    border: 0.125rem solid var(--white);
+    font-weight: bold;
+}

@@ -52,11 +52,11 @@ const NavigationBar = () => {
                     <p className="paragraphDateAndTime">{dataHoraAtual}</p>
                 </div>
                 <nav className="navigationBox displayFlexCenterCenter">
-                    <a className='navigationButtons' href={generalSection} target="_blank" rel="noopener noreferrer">Geral</a>
-                    <a className='navigationButtons' href={queriesSection} target="_blank" rel="noopener noreferrer">Consultas</a>
-                    <a className='navigationButtons' href={otherSection} target="_blank" rel="noopener noreferrer">Dti</a>
-                    <a className='navigationButtons' href={dtiSection} target="_blank" rel="noopener noreferrer">Outros</a>
-                    <a className='navigationButtons' href={downloadsSection} target="_blank" rel="noopener noreferrer">Downloads</a>
+                    <a className='navigationButtons' href={generalSection}  rel="noopener noreferrer">Geral</a>
+                    <a className='navigationButtons' href={queriesSection}  rel="noopener noreferrer">Consultas</a>
+                    <a className='navigationButtons' href={otherSection}  rel="noopener noreferrer">Dti</a>
+                    <a className='navigationButtons' href={dtiSection}  rel="noopener noreferrer">Outros</a>
+                    <a className='navigationButtons' href={downloadsSection}  rel="noopener noreferrer">Downloads</a>
                 </nav>
             </div>
         </section>

@@ -1,21 +1,19 @@
 import React from 'react';
-import './GeneralLinksSection.css'
+import './QueriesLinksSection.css'
 
 import SectionSubtitle from '../SectionSubtitle/SectionSubtitle';
-import ListOfImagesAndSystems from '../ListOfImagesAndSystems/ListOfImagesAndGeneralSystems';
+import ListOfImagesAndQuerySystems from '../ListOfImagesAndSystems/ListOfImagesAndQuerySystems';
 import WebsiteCards from '../WebsiteCards/WebsiteCards';
 
 
-
- const GeneralLinksSection = () => {
-
+const QueriesLinksSection = () => {
   return ( 
-    <section id="generalSection" className="generalLinksSection pageWidth displayFlexCenterCenter">
-      <SectionSubtitle sectionSubtitle='Sistemas Gerais' />
+    <section id="queriesSection" className="queriesLinksSection pageWidth displayFlexCenterCenter">
+      <SectionSubtitle sectionSubtitle='Sistemas de Consultas' />
 
       <div className="projectCardContainer displayFlexCenterCenter">
-          {ListOfImagesAndSystems.length > 0 ? (
-              ListOfImagesAndSystems.map((projeto, index) => (
+          {ListOfImagesAndQuerySystems.length > 0 ? (
+              ListOfImagesAndQuerySystems.map((projeto, index) => (
                   <WebsiteCards
                       key={index}
                       image={projeto.image}
@@ -30,8 +28,7 @@ import WebsiteCards from '../WebsiteCards/WebsiteCards';
       </div>
 
     </section>
-
    );
- }
-  
- export default GeneralLinksSection;
+}
+ 
+export default QueriesLinksSection;

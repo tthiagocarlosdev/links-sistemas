@@ -1,13 +1,15 @@
 import React from 'react';
 import GeneralLinksSection from '../GeneralLinksSection/GeneralLinksSection';
+import QueriesLinksSection from '../QueriesLinksSection/QueriesLinksSection';
+
 import MainOthers from '../MainOthers';
-import MainQueries from '../MainQueries';
+
 
 const Main = () => {
   return ( 
     <div className="main displayFlexCenterCenter">
       <GeneralLinksSection/>
-      <MainQueries/>
+      <QueriesLinksSection/>
       <MainOthers/>
     </div>
    );

@@ -12,7 +12,7 @@ const ListOfImagesAndSystems = [
         systemAddress: 'https://pcpevirtual.policiacivil.pe.gov.br/pcp/open.do?action=open&sys=PCP',
     },
     {
-        image:'logoSppPcpe.png',
+        image:'logoPcpeFundoPreto.png',
         imageTitle:'Sistema de Procedimentos Policiais',
         systemName:'SPP',
         systemAddress: 'https://spp.pc.pe.gov.br/#/controle',
@@ -50,3 +50,4 @@ const ListOfImagesAndSystems = [
 ];
 
 export default ListOfImagesAndSystems;
+

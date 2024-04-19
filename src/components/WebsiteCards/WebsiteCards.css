@@ -16,13 +16,14 @@
 
 .buttonGoToWebsite {
     width: 100%;
-    height: 2.5rem;
+    height: 3.5rem;
     border-radius: 0.188rem;
     background-color: var(--white);
     color: var(--blue);
     font-size: 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
+    text-align: center;
     transition: all 0.5s ease;
 }
 

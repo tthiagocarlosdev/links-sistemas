@@ -1,8 +1,8 @@
 import React from 'react';
 import GeneralLinksSection from '../GeneralLinksSection/GeneralLinksSection';
 import QueriesLinksSection from '../QueriesLinksSection/QueriesLinksSection';
-
-import MainOthers from '../MainOthers';
+import OthersLinksSection from '../OthersLinksSection/OthersLinksSection';
+import DtiLinksSection from '../DtiLinksSection/DtiLinksSection';
 
 
 const Main = () => {
@@ -10,7 +10,8 @@ const Main = () => {
     <div className="main displayFlexCenterCenter">
       <GeneralLinksSection/>
       <QueriesLinksSection/>
-      <MainOthers/>
+      <OthersLinksSection />
+      <DtiLinksSection />
     </div>
    );
 }

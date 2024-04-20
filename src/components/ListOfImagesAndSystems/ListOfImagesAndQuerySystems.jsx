@@ -36,7 +36,7 @@ const ListOfImagesAndQuerySystems = [
         systemAddress: 'https://www.siap.pe.gov.br/SIAP/public/pages/login.jsf',
     },
     {
-        image:'logoSistemaPernambucanoDeBensApreendidos.png',
+        image:'logoPcpeDouradaFundoBranco.png',
         imageTitle:'Sistema Pernambucano de Bens Apreendidos',
         systemName:'SPBA',
         systemAddress: 'https://spba.pc.pe.gov.br/spba/#/controle',
@@ -54,7 +54,7 @@ const ListOfImagesAndQuerySystems = [
         systemAddress: 'https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp',
     },
     {
-        image:'logoSace.png',
+        image:'logoDefesaSocial.png',
         imageTitle:'Gerência Geral de Análise Criminal e Estatística',
         systemName:'SACE',
         systemAddress: 'https://www.sds.pe.gov.br/sace/login',
@@ -69,4 +69,3 @@ const ListOfImagesAndQuerySystems = [
 ];
 
 export default ListOfImagesAndQuerySystems;
-    //         <li> <a className="button" href="" target="_blank" title="">  </a></li>

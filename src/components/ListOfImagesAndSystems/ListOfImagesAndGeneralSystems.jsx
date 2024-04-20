@@ -6,16 +6,16 @@ const ListOfImagesAndSystems = [
         systemAddress: 'http://www.policiacivil.pe.gov.br/',
     },
     {
+        image:'logoSistemaDeProcedimentosPoliciais.png',
+        imageTitle:'Sistema de Procedimentos Policiais',
+        systemName:'SPP',
+        systemAddress: 'https://spp.pc.pe.gov.br/#/controle',
+    },
+    {
         image:'logoPcpeVirtual.png',
         imageTitle:'Site do PCPE VIRTUAL',
         systemName:'PCPE VIRTUAL',
         systemAddress: 'https://pcpevirtual.policiacivil.pe.gov.br/pcp/open.do?action=open&sys=PCP',
-    },
-    {
-        image:'logoPcpeFundoPreto.png',
-        imageTitle:'Sistema de Procedimentos Policiais',
-        systemName:'SPP',
-        systemAddress: 'https://spp.pc.pe.gov.br/#/controle',
     },
     {
         image:'logoSeiAzul.png',
@@ -42,7 +42,7 @@ const ListOfImagesAndSystems = [
         systemAddress: 'https://drive.expresso.pe.gov.br/login',
     },
     {
-        image:'logoSistemaDeControleDePlantoesDigitais.png',
+        image:'logoPcpeDouradaFundoBranco.png',
         imageTitle:'Sistema de Controle de Plantões Digitais',
         systemName:'SCPD',
         systemAddress: 'https://plantaodigital.pc.pe.gov.br/#/controle',

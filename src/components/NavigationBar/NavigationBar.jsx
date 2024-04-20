@@ -54,8 +54,8 @@ const NavigationBar = () => {
                 <nav className="navigationBox displayFlexCenterCenter">
                     <a className='navigationButtons' href={generalSection}  rel="noopener noreferrer">Geral</a>
                     <a className='navigationButtons' href={queriesSection}  rel="noopener noreferrer">Consultas</a>
-                    <a className='navigationButtons' href={otherSection}  rel="noopener noreferrer">Dti</a>
-                    <a className='navigationButtons' href={dtiSection}  rel="noopener noreferrer">Outros</a>
+                    <a className='navigationButtons' href={otherSection}  rel="noopener noreferrer">Outros</a>
+                    <a className='navigationButtons' href={dtiSection}  rel="noopener noreferrer">DTI</a>
                     <a className='navigationButtons' href={downloadsSection}  rel="noopener noreferrer">Downloads</a>
                 </nav>
             </div>

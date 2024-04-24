@@ -1,24 +1,22 @@
 const ListOfImagesAndDownloadsSystems = [
     {
-        image:'imagemTeste.png',
-        imageTitle:'Teste',
-        systemName:'Teste',
-        systemAddress: '#',
+        image:'logoJava.png',
+        imageTitle:'Download do programa Java',
+        systemName:'JAVA',
+        systemAddress: 'http://200.238.83.219/old-PCPE/JAVA/',
     },
     {
-        image:'imagemTeste.png',
-        imageTitle:'Teste',
-        systemName:'Teste',
-        systemAddress: '#',
+        image:'logoAnydesk.png',
+        imageTitle:'Download do programa Anydesk',
+        systemName:'ANYDESK',
+        systemAddress: 'http://200.238.83.219/old-PCPE/AD/',
     },
     {
-        image:'imagemTeste.png',
-        imageTitle:'Teste',
-        systemName:'Teste',
-        systemAddress: '#',
+        image:'logoNaps2.png',
+        imageTitle:'Download do programa NAPS2',
+        systemName:'NAPS2',
+        systemAddress: 'https://www.naps2.com/download',
     },
 ];
 
-// <li> <a className="button" href="http://200.238.83.219/old-PCPE/JAVA/" target="_blank" > JAVA </a></li>
-// <li> <a className="button" href="http://200.238.83.219/old-PCPE/AD/" target="_blank" > ANYDESK </a></li>
-// <li> <a className="button" href="https://www.naps2.com/download" target="_blank" > NAPS2 </a></li>
+export default ListOfImagesAndDownloadsSystems;

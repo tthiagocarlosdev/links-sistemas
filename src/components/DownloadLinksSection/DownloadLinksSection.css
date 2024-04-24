@@ -1,0 +1,19 @@
+.downloadLinksSection {
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.projectCardContainer {
+    width: 100%;
+    gap: 2.188rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.noCardAvailable {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: var(--blue);
+}

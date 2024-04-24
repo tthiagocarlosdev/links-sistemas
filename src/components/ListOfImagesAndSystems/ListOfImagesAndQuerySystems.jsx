@@ -71,7 +71,12 @@ const ListOfImagesAndQuerySystems = [
         systemName:'Portal Web',
         systemAddress: 'https://servicos.sds.pe.gov.br/portalsds/',
     },
-    
+    {
+        image:'logoInfopolVelho.png',
+        imageTitle:'Infopol Velho',
+        systemName:'Infopol',
+        systemAddress: 'http://200.238.83.36/pernambuco/',
+    },
 ];
 
 export default ListOfImagesAndQuerySystems;

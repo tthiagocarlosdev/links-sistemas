@@ -6,7 +6,7 @@ import bandeiraDePernambuco from '../../img/bandeiraPernambuco.png'
 
 const Header = ({ showGoBackButton, onGoBack }) => {
   return ( 
-    <header className='sectionHeader displayFlexCenterCenter'>
+    <header id='sectionHeader' className='sectionHeader displayFlexCenterCenter'>
         <div className='containerHeader displayFlexCenterCenter pageWidth'>
           <div className='containerTitleText displayFlexCenterCenter'>
             <h1 className='title'> LINKS PCPE </h1>

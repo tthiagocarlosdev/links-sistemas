@@ -1,0 +1,120 @@
+
+.footer {
+    background-color: var(--blue);
+    width: 100%;
+    min-height: 80px;
+    justify-content: space-around;
+    color: var(--white);
+}
+
+.containerFooterWidth {
+    min-height: 100%;
+}
+
+.footerText {
+    min-height: 100%;
+    flex: 1 1 80%;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.footerText a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footerText a:hover {
+    background-color: var(--cardBackgroundBoxShadow);
+    padding: 8px 12px;
+    border-radius: 3px;
+    border: none;
+}
+
+.footerArrow {
+    height: 100%;
+    flex: 1 1 20%;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.fa-circle-arrow-up {
+    font-size: 48px;
+    color: var(--white);
+}
+
+.fa-circle-arrow-up:hover{
+    color: var(--blue);
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+
+/* media  media  media  media  media  media  media  media  media  media  media */
+/* media  media  media  media  media  media  media  media  media  media  media */
+/* Para telas com largura entre 769px e 1279px */
+@media screen and (min-width: 769px) and (max-width: 1279px){
+    .containerFooterWidth {
+        padding: 16px 24px;
+    }
+}
+
+/* Para telas com largura entre 481px e 768px */
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .containerFooterWidth {
+        padding: 16px 24px;
+    }
+}
+
+/* Para telas com largura entre 271px e 480px */
+@media screen and (min-width: 271px) and (max-width: 480px){
+    .containerFooterWidth {
+        padding: 8px;
+        flex-wrap: wrap;
+    }
+
+    .footerText {
+        font-size: 12px;
+    }
+
+    .footerText a {
+        font-size: 12px;
+    }
+    
+    .footerArrow {
+    
+        display: flex;
+    }
+
+    .fa-circle-arrow-up {
+        font-size: 38px;
+    }
+}
+
+/* Para telas com largura até e 270px */
+@media screen and (max-width: 270px){
+    .containerFooterWidth {
+        padding: 8px;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .footerText {
+        font-size: 12px;
+        justify-content: center;
+    }
+
+    .footerText a {
+        font-size: 12px;
+    }
+    
+    .footerArrow {
+    
+        display: flex;
+        justify-content: center;
+    }
+
+    .fa-circle-arrow-up {
+        font-size: 38px;
+    }
+}

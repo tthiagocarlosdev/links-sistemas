@@ -4,18 +4,18 @@
 .sectionHeader {
     background-color: var(--blue);
     width: 100%;
-    height: 9.375rem;
+    height: 14.063rem;
     padding: 1rem;
-    /* position: absolute;
-    top: 65px; */
+    flex-direction: column;
+    position: relative;
 }
 
 .containerHeader {
     height: 100%;
+    padding-top: 4.688rem;
 }
 
 .containerTitleText {
-    /* background-color: purple; */
     flex: 1 1 50%;
     height: 100%;
     justify-content: flex-start;
@@ -27,7 +27,6 @@
 }
 
 .containerHeaderImages {
-    /* background-color: palevioletred; */
     flex: 1 1 50%;
     height: 100%;
     gap: 0.625rem;
@@ -36,6 +35,5 @@
   
 
 .headerImages {
-    /* width: 9.375rem; */
     height: 90%;
 }

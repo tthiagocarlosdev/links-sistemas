@@ -1,5 +1,4 @@
 import React from 'react';
-import './QueriesLinksSection.css'
 
 import SectionSubtitle from '../SectionSubtitle/SectionSubtitle';
 import ListOfImagesAndQuerySystems from '../ListOfImagesAndSystems/ListOfImagesAndQuerySystems';
@@ -8,7 +7,7 @@ import WebsiteCards from '../WebsiteCards/WebsiteCards';
 
 const QueriesLinksSection = () => {
   return ( 
-    <section id="queriesSection" className="queriesLinksSection pageWidth displayFlexCenterCenter">
+    <section id="queriesSection" className="linksSections queriesLinksSection pageWidth displayFlexCenterCenter">
       <SectionSubtitle sectionSubtitle='Sistemas de Consultas' />
 
       <div className="projectCardContainer displayFlexCenterCenter">

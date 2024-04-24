@@ -15,7 +15,7 @@ const ListOfImagesAndDtiSystems = [
         image:'whatsApp.png',
         imageTitle:'WhatsApp DTI DINTER 2 - Petrolina',
         systemName:'DTI Dinter 2',
-        systemAddress: 'https://wa.me/5581994887049/',
+        systemAddress: 'https://wa.me/5587988772185/',
     },
     {
         image:'logoRelatorioDeServicosExternos.png',

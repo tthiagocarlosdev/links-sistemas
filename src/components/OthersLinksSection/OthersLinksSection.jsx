@@ -1,5 +1,4 @@
 import React from "react";
-import './OthersLinksSection.css'
 
 import SectionSubtitle from '../SectionSubtitle/SectionSubtitle';
 import ListOfImagesAndOthersSystems from '../ListOfImagesAndSystems/ListOfImagesAndOthersSystems.jsx';
@@ -7,7 +6,7 @@ import WebsiteCards from '../WebsiteCards/WebsiteCards';
 
 const OthersLinksSection = () => {
     return ( 
-        <section id="otherSection" className="othersLinksSection pageWidth displayFlexCenterCenter">
+        <section id="otherSection" className="linksSections othersLinksSection pageWidth displayFlexCenterCenter">
         <SectionSubtitle sectionSubtitle='Outros Sistemas' />
 
         <div className="projectCardContainer displayFlexCenterCenter">

@@ -1,5 +1,4 @@
 import React from "react";
-import './DownloadLinksSection.css'
 
 import SectionSubtitle from '../SectionSubtitle/SectionSubtitle';
 import ListOfImagesAndDownloadsSystems from '../ListOfImagesAndSystems/ListOfImagesAndDownloadsSystems.jsx';
@@ -7,7 +6,7 @@ import WebsiteCards from '../WebsiteCards/WebsiteCards';
 
 const DownloadLinksSection = () => {
     return ( 
-        <section id="downloadsSection" className="downloadLinksSection pageWidth displayFlexCenterCenter">
+        <section id="downloadsSection" className="linksSections downloadLinksSection pageWidth displayFlexCenterCenter">
             <SectionSubtitle sectionSubtitle='Sistemas para Download' />
 
             <div className="projectCardContainer displayFlexCenterCenter">

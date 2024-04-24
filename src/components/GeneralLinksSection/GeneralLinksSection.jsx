@@ -1,5 +1,5 @@
 import React from 'react';
-import './GeneralLinksSection.css'
+
 
 import SectionSubtitle from '../SectionSubtitle/SectionSubtitle';
 import ListOfImagesAndSystems from '../ListOfImagesAndSystems/ListOfImagesAndGeneralSystems';
@@ -10,7 +10,7 @@ import WebsiteCards from '../WebsiteCards/WebsiteCards';
  const GeneralLinksSection = () => {
 
   return ( 
-    <section id="generalSection" className="generalLinksSection pageWidth displayFlexCenterCenter">
+    <section id="generalSection" className="linksSections generalLinksSection pageWidth displayFlexCenterCenter">
       <SectionSubtitle sectionSubtitle='Sistemas Gerais' />
 
       <div className="projectCardContainer displayFlexCenterCenter">

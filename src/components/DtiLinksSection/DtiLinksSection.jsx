@@ -1,5 +1,4 @@
 import React from "react";
-import './DtiLinksSection.css'
 
 import SectionSubtitle from '../SectionSubtitle/SectionSubtitle';
 import ListOfImagesAndDtiSystems from '../ListOfImagesAndSystems/ListOfImagesAndDtiSystems.jsx';
@@ -7,7 +6,7 @@ import WebsiteCards from '../WebsiteCards/WebsiteCards';
 
 const DtiLinksSection = () => {
     return ( 
-        <section id="dtiSection" className="dtiLinksSection pageWidth displayFlexCenterCenter">
+        <section id="dtiSection" className="linksSections dtiLinksSection pageWidth displayFlexCenterCenter">
             <SectionSubtitle sectionSubtitle='Sistemas DTI' />
 
             <div className="projectCardContainer displayFlexCenterCenter">

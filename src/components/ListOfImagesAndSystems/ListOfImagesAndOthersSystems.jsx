@@ -18,7 +18,7 @@ const ListOfImagesAndOthersSystems = [
         systemAddress: 'http://web.transparencia.pe.gov.br/despesas/desp-diarias/',
     },
     {
-        image:'logoPcpeDouradaFundoBranco.png',
+        image:'logoPcpeBrasaoOuroFundoBranco.png',
         imageTitle:'Sistema de Controle de Diárias Polícia Civil de Pernambuco',
         systemName:'SCD',
         systemAddress: 'https://diarias.pc.pe.gov.br/#/controle',

@@ -6,7 +6,7 @@ const ListOfImagesAndSystems = [
         systemAddress: 'http://www.policiacivil.pe.gov.br/',
     },
     {
-        image:'logoSistemaDeProcedimentosPoliciais.png',
+        image:'logoPcpeBrasaoOuroFundoCinzaEscuro.png',
         imageTitle:'Sistema de Procedimentos Policiais',
         systemName:'SPP',
         systemAddress: 'https://spp.pc.pe.gov.br/#/controle',
@@ -42,7 +42,7 @@ const ListOfImagesAndSystems = [
         systemAddress: 'https://drive.expresso.pe.gov.br/login',
     },
     {
-        image:'logoPcpeDouradaFundoBranco.png',
+        image:'logoPcpeBrasaoOuroFundoBranco.png',
         imageTitle:'Sistema de Controle de Plantões Digitais',
         systemName:'SCPD',
         systemAddress: 'https://plantaodigital.pc.pe.gov.br/#/controle',

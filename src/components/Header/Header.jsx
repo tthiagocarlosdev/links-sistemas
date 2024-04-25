@@ -5,7 +5,7 @@ import bandeiraPCPE from '../../img/bandeiraPCPE.png'
 import bandeiraDePernambuco from '../../img/bandeiraPernambuco.png'
 import NavigationBar from '../NavigationBar/NavigationBar';
 
-const Header = ({ showGoBackButton, onGoBack }) => {
+const Header = () => {
   return ( 
     <header id='sectionHeader' className='sectionHeader displayFlexCenterCenter'>
         <NavigationBar />

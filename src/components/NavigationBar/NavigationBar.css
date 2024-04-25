@@ -15,7 +15,6 @@
 }
 
 .dateAndTimeBox {
-    /* background-color: plum; */
     height: 100%;
     flex: 1 1 50%;
     justify-content: flex-start;
@@ -28,7 +27,6 @@
 }
 
 .navigationBox {
-    /* background-color: peru; */
     height: 100%;
     flex: 1 1 50%;
     justify-content: flex-end;
@@ -47,4 +45,112 @@
 .navigationButtons:hover {
 	padding: 0rem 0.5rem 0.5rem 0.5rem;
     font-size: 1.375rem;
+}
+
+/* media  media  media  media  media  media  media  media  media  media  media */
+/* media  media  media  media  media  media  media  media  media  media  media */
+/* Para telas com largura entre 900px e 1279px */
+@media screen and (min-width: 900px) and (max-width: 1279px){
+    .sectionNavigatorBar {
+        height: 4.063rem;
+        padding: 0;
+    }
+
+    .paragraphDateAndTime {
+        font-size: 1.344rem;
+    }
+
+    .navigationBox {
+        gap: 1.125rem;
+    }
+
+    .navigationButtons {
+        font-size: 1.125rem;
+    }
+
+}
+
+/* Para telas com largura entre 768px e 900px*/
+@media screen and (min-width: 769px) and (max-width: 900px) {
+    .sectionNavigatorBar {
+        height: 4.063rem;
+        padding: 0;
+    }
+
+    .paragraphDateAndTime {
+        font-size: 1.125rem;
+    }
+
+    .navigationBox {
+        gap: 1rem;
+    }
+
+    .navigationButtons {
+        font-size: 1rem;
+    }
+}
+
+/* Para telas com largura entre 481px e 768px */
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .sectionNavigatorBar {
+        height: 3.75rem;
+        padding: 0;
+    }
+
+    .containerNavigatorBar {
+        flex-wrap: wrap;
+        gap: 0.4rem;
+    }
+
+    .dateAndTimeBox {
+        justify-content: center;
+        height: 50%;
+    }
+
+    .paragraphDateAndTime {
+        font-size: 0.938rem;
+    }
+
+    .navigationBox {
+        height: 50%;
+        justify-content: center;
+        gap: 0.7rem;
+    }
+
+    .navigationButtons {
+        font-size: 0.938rem;
+    }
+}
+
+/* Para telas com largura até e 480px */
+@media screen and (max-width: 480px){
+    .sectionNavigatorBar {
+        height: 3.438rem;
+        padding: 0;
+    }
+
+    .containerNavigatorBar {
+        flex-wrap: wrap;
+        gap: 0.7rem;
+    }
+
+    .dateAndTimeBox {
+        justify-content: center;
+        height: 50%;
+    }
+
+    .paragraphDateAndTime {
+        font-size: 0.75rem;
+    }
+
+    .navigationBox {
+        height: 50%;
+        justify-content: center;
+        gap: 0.7rem;
+    }
+
+    .navigationButtons {
+        font-size: 0.75rem;
+        padding-bottom: 0.3rem;
+    }
 }

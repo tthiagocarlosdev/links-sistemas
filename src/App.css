@@ -61,8 +61,8 @@
 
 /* media  media  media  media  media  media  media  media  media  media  media */
 /* media  media  media  media  media  media  media  media  media  media  media */
-/* Para telas com largura entre 900px e 1279px */
-@media screen and (min-width: 900px) and (max-width: 1279px){
+/* Para telas com largura entre 901px e 1279px */
+@media screen and (min-width: 901px) and (max-width: 1279px){
   .pageWidth {
     width: 100%;
     padding: 1rem;
@@ -70,8 +70,8 @@
 }
 
 
-/* Para telas com largura entre 768px e 900px*/
-@media screen and (min-width: 768px) and (max-width: 900px){
+/* Para telas com largura entre 769px e 900px*/
+@media screen and (min-width: 769px) and (max-width: 900px){
   .pageWidth {
     width: 100%;
     padding: 1rem;

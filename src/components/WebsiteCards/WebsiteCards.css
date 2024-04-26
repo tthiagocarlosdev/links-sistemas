@@ -39,7 +39,6 @@
 @media screen and (min-width: 901px) and (max-width: 1279px){
     .pageWidth {
         width: 100%;
-        padding: 1rem;
     }
 
     .websiteCards {
@@ -56,7 +55,6 @@
   @media screen and (min-width: 769px) and (max-width: 900px){
     .pageWidth {
       width: 100%;
-      padding: 1rem;
     }
 
     .websiteCards {
@@ -72,7 +70,6 @@
   @media screen and (min-width: 481px) and (max-width: 768px){
     .pageWidth {
       width: 100%;
-      padding: 0.5rem;
     }
 
     .websiteCards {
@@ -88,7 +85,6 @@
   @media screen and (max-width: 480px){
     .pageWidth {
       width: 100%;
-      padding: 1rem;
     }
 
     .websiteCards {

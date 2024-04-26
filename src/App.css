@@ -24,7 +24,6 @@
 
 .pageWidth {
   width: 1280px;
-  /* border: 1px solid red; */
 }
 
 .displayFlexCenterCenter {
@@ -67,6 +66,11 @@
     width: 100%;
     padding: 1rem;
   }
+  
+  .projectCardContainer {
+    gap: 1.875rem;
+    padding: 1.5rem 0;
+  }
 }
 
 
@@ -76,6 +80,12 @@
     width: 100%;
     padding: 1rem;
   }
+
+  .projectCardContainer {
+    gap: 1.563rem;
+    padding: 1rem 0;
+  }
+
 }
 
 /* Para telas com largura entre 481px e 768px */
@@ -84,6 +94,11 @@
     width: 100%;
     padding: 0.5rem;
   }
+
+  .projectCardContainer {
+    gap: 1.25rem;
+    padding: 1rem 0;
+  }
 }
 
 /* Para telas com largura até e 480px */
@@ -91,5 +106,10 @@
   .pageWidth {
     width: 100%;
     padding: 1rem;
+  }
+
+  .projectCardContainer {
+    gap: 0.5rem;
+    padding: 0.5rem 0;
   }
 }

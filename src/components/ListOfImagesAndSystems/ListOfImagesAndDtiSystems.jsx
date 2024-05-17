@@ -47,6 +47,12 @@ const ListOfImagesAndDtiSystems = [
         systemName:'SCP',
         systemAddress: 'https://scp.pc.pe.gov.br/scp/#/controle',
     },
+    {
+        image:'enderecosETelefonesPcpe.png',
+        imageTitle:'Endereços e Telefones PCPE',
+        systemName:'Endereços e Telefones',
+        systemAddress: 'https://tthiagocarlosdev.github.io/projects_website/projetos/telefones_enderecos_pcpe/index.html',
+    },
     // {
     //     image:'imagemTeste.png',
     //     imageTitle:'Acompanhamento do Vencimento dos Certificados Digitais!',

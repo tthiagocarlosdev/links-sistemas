@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/links-sistemas/static/css/main.aa525810.css",
-    "main.js": "/links-sistemas/static/js/main.ce4639f8.js",
+    "main.js": "/links-sistemas/static/js/main.9591e8eb.js",
     "static/media/autovision_img_background.png": "/links-sistemas/static/media/autovision_img_background.949f633f40583f3b4c23.png",
     "static/media/image 8thiago.png": "/links-sistemas/static/media/image 8thiago.0329878dfcee51d6510d.png",
     "static/media/image 6thiago.png": "/links-sistemas/static/media/image 6thiago.bb313178f88320782ca8.png",
@@ -95,10 +95,10 @@
     "static/media/lock-solid.svg": "/links-sistemas/static/media/lock-solid.0c2b5a6718f7970709d6.svg",
     "static/media/especificacoes.md": "/links-sistemas/static/media/especificacoes.f621f54b8ffffb15af41.md",
     "main.aa525810.css.map": "/links-sistemas/static/css/main.aa525810.css.map",
-    "main.ce4639f8.js.map": "/links-sistemas/static/js/main.ce4639f8.js.map"
+    "main.9591e8eb.js.map": "/links-sistemas/static/js/main.9591e8eb.js.map"
   },
   "entrypoints": [
     "static/css/main.aa525810.css",
-    "static/js/main.ce4639f8.js"
+    "static/js/main.9591e8eb.js"
   ]
 }

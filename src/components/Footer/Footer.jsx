@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css'
 
 const Footer = () => {
-  const enderecoDoPortifolio = 'https://tthiagocarlosdev.github.io/portfolio/';
+  const enderecoDoPortifolio = 'https://tthiagocarlosdev.com.br/';
 
   return (
     <footer className="footer displayFlexCenterCenter">

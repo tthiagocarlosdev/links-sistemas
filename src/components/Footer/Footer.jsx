@@ -1,5 +1,7 @@
 import React from 'react';
 import './Footer.css'
+import { ReactComponent as CircleArrowUp } from '../../img/circle-arrow-up-solid.svg';
+
 
 const Footer = () => {
   const enderecoDoPortifolio = 'https://tthiagocarlosdev.com.br/';
@@ -8,7 +10,7 @@ const Footer = () => {
     <footer className="footer displayFlexCenterCenter">
       <div className="containerFooterWidth displayFlexCenterCenter pageWidth">
         <p className="footerText displayFlexCenterCenter">Desenvolvido por <a href={enderecoDoPortifolio} target='_blanck'> tthiagocarlosdev</a> </p>
-        <a className="footerArrow displayFlexCenterCenter" href="#sectionHeader"> <i className="fa-solid fa-circle-arrow-up"></i></a>
+        <a className="footerArrow displayFlexCenterCenter" href="#sectionHeader"> <CircleArrowUp className="fa-circle-arrow-up" /> </a>
       </div>
     </footer>
   );

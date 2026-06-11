@@ -45,10 +45,23 @@
 
 .fa-circle-arrow-up:hover{
     color: var(--blue);
+    
+}
+
+.fa-circle-arrow-up {
+    width: 48px;
+    height: 48px;
+    fill: var(--white); 
+    transition: fill 0.3s ease;
+}
+
+.fa-circle-arrow-up:hover {
+    fill: var(--blue);
     background-color: var(--white);
     border: 1px solid var(--white);
     border-radius: 50%;
 }
+
 
 /* media  media  media  media  media  media  media  media  media  media  media */
 /* media  media  media  media  media  media  media  media  media  media  media */

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/links-sistemas/static/css/main.aa525810.css",
-    "main.js": "/links-sistemas/static/js/main.9591e8eb.js",
+    "main.css": "/links-sistemas/static/css/main.8fa721d0.css",
+    "main.js": "/links-sistemas/static/js/main.bada2232.js",
     "static/media/autovision_img_background.png": "/links-sistemas/static/media/autovision_img_background.949f633f40583f3b4c23.png",
     "static/media/image 8thiago.png": "/links-sistemas/static/media/image 8thiago.0329878dfcee51d6510d.png",
     "static/media/image 6thiago.png": "/links-sistemas/static/media/image 6thiago.bb313178f88320782ca8.png",
@@ -58,7 +58,6 @@
     "static/media/logoSistemaDePericiasMedicas.png": "/links-sistemas/static/media/logoSistemaDePericiasMedicas.65407c15f03656d6cc04.png",
     "static/media/logoGreenlight.png": "/links-sistemas/static/media/logoGreenlight.793c7c2a94c73595a1b1.png",
     "static/media/image 3thiago.png": "/links-sistemas/static/media/image 3thiago.dd35e13aa8b7c9003cd7.png",
-    "static/media/portalWeb.jpg": "/links-sistemas/static/media/portalWeb.e90b9806784fc1c759ce.jpg",
     "static/media/infoseg_logo.png": "/links-sistemas/static/media/infoseg_logo.4d5706333f4cc40022a1.png",
     "static/media/logo-expresso.png": "/links-sistemas/static/media/logo-expresso.b6984526e984b2eb9e3c.png",
     "static/media/logoAnydesk350x350.png": "/links-sistemas/static/media/logoAnydesk350x350.bc22f5555c2183fbc148.png",
@@ -90,15 +89,15 @@
     "static/media/square-whatsapp.svg": "/links-sistemas/static/media/square-whatsapp.3dbe9f9651520659211c.svg",
     "index.html": "/links-sistemas/index.html",
     "static/media/unlock-keyhole-solid.svg": "/links-sistemas/static/media/unlock-keyhole-solid.8b1de3cd28e835539ccf.svg",
-    "static/media/circle-arrow-up-solid.svg": "/links-sistemas/static/media/circle-arrow-up-solid.52e210ec10e2ae413201.svg",
+    "static/media/circle-arrow-up-solid.svg": "/links-sistemas/static/media/circle-arrow-up-solid.52e210ec10e2ae4132017c618127958a.svg",
     "static/media/lock-solid (1).svg": "/links-sistemas/static/media/lock-solid (1).1cfb3f3ab89ef9d8f9d0.svg",
     "static/media/lock-solid.svg": "/links-sistemas/static/media/lock-solid.0c2b5a6718f7970709d6.svg",
     "static/media/especificacoes.md": "/links-sistemas/static/media/especificacoes.f621f54b8ffffb15af41.md",
-    "main.aa525810.css.map": "/links-sistemas/static/css/main.aa525810.css.map",
-    "main.9591e8eb.js.map": "/links-sistemas/static/js/main.9591e8eb.js.map"
+    "main.8fa721d0.css.map": "/links-sistemas/static/css/main.8fa721d0.css.map",
+    "main.bada2232.js.map": "/links-sistemas/static/js/main.bada2232.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa525810.css",
-    "static/js/main.9591e8eb.js"
+    "static/css/main.8fa721d0.css",
+    "static/js/main.bada2232.js"
   ]
 }

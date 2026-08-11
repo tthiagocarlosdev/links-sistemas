@@ -1,7 +1,7 @@
 import React from 'react';
 
 import '../Header/Header.css'
-import bandeiraPCPE from '../../img/bandeiraPCPE.png'
+import bandeiraPCPE from '../../img/bandeiraPcpeAtual.png'
 import bandeiraDePernambuco from '../../img/bandeiraPernambuco.png'
 import NavigationBar from '../NavigationBar/NavigationBar';
 

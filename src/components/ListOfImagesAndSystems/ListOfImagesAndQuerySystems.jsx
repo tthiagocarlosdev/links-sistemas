@@ -47,14 +47,14 @@ const ListOfImagesAndQuerySystems = [
         systemName:'Receita Federal',
         systemAddress: 'https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp',
     },
+    // {
+    //     image:'logoDefesaSocial.png',
+    //     imageTitle:'Gerência Geral de Análise Criminal e Estatística',
+    //     systemName:'SACE',
+    //     systemAddress: 'https://www.sds.pe.gov.br/sace/login',
+    // },
     {
-        image:'logoDefesaSocial.png',
-        imageTitle:'Gerência Geral de Análise Criminal e Estatística',
-        systemName:'SACE',
-        systemAddress: 'https://www.sds.pe.gov.br/sace/login',
-    },
-    {
-        image:'logoAutovision.png',
+        image:'autoVision350x350.png',
         imageTitle:'Sistema de consulta Autovision',
         systemName:'Autovision 1',
         systemAddress: 'http://189.39.115.178:8082/',

@@ -1,5 +1,11 @@
 const ListOfImagesAndDtiSystems = [
     {
+        image:'brasaoPcpeFundoBranco_350x350.png',
+        imageTitle:'SGTI - Sistema de Gestão de TI',
+        systemName:'SGTI',
+        systemAddress: 'https://sgti.pc.pe.gov.br/',
+    },
+    {
         image:'whatsApp.png',
         imageTitle:'WhatsApp Plantão DTI - Recife',
         systemName:'PLANTÃO DTI',
@@ -29,18 +35,18 @@ const ListOfImagesAndDtiSystems = [
         systemName:'Teste de impressora',
         systemAddress: 'https://tthiagocarlosdev.github.io/projects_website/projetos/teste_de_impressora/index.html',
     },
-    {
-        image:'logoGlpi.png',
-        imageTitle:'Teste',
-        systemName:'GLPI',
-        systemAddress: 'https://glpi.pc.pe.gov.br/',
-    },
-    {
-        image:'logoPcpeBrasaoOuroFundoCinzaEscuro.png',
-        imageTitle:'Sistema de Procedimentos Policiais para treinamento.',
-        systemName:'SPP TREINAMENTO',
-        systemAddress: 'https://spp-treinamento.pc.pe.gov.br/#/controle',
-    },
+    // {
+    //     image:'logoGlpi.png',
+    //     imageTitle:'Teste',
+    //     systemName:'GLPI',
+    //     systemAddress: 'https://glpi.pc.pe.gov.br/',
+    // },
+    // {
+    //     image:'logoPcpeBrasaoOuroFundoCinzaEscuro.png',
+    //     imageTitle:'Sistema de Procedimentos Policiais para treinamento.',
+    //     systemName:'SPP TREINAMENTO',
+    //     systemAddress: 'https://spp-treinamento.pc.pe.gov.br/#/controle',
+    // },
     {
         image:'logoPcpeBrasaoMidnightBlueFundoBranco.png',
         imageTitle:'Sistema de Controle de Permissões',

@@ -1,6 +1,6 @@
 const ListOfImagesAndSystems = [
     {
-        image:'logoPoliciaCivilDePernambuco.png',
+        image:'brasaoPcpeFundoBranco_350x350.png',
         imageTitle:'Site da Polícia Civil de Pernambuco',
         systemName:'Site PCPE',
         systemAddress: 'http://www.policiacivil.pe.gov.br/',
@@ -10,12 +10,6 @@ const ListOfImagesAndSystems = [
         imageTitle:'Sistema de Procedimentos Policiais',
         systemName:'SPP',
         systemAddress: 'https://spp.pc.pe.gov.br/#/controle',
-    },
-    {
-        image:'logoPcpeVirtual.png',
-        imageTitle:'Site do PCPE VIRTUAL',
-        systemName:'PCPE VIRTUAL',
-        systemAddress: 'https://pcpevirtual.policiacivil.pe.gov.br/pcp/open.do?action=open&sys=PCP',
     },
     {
         image:'logoSeiAzul.png',
@@ -28,6 +22,18 @@ const ListOfImagesAndSystems = [
         imageTitle:'Processo Judicial Eletrônico',
         systemName:'PJE',
         systemAddress: 'https://pje.tjpe.jus.br/1g/login.seam',
+    },
+    {
+        image:'brasaoPcpeFundoBranco_350x350.png',
+        imageTitle:'Site do SOGo.PE by ATI',
+        systemName:'SOGo',
+        systemAddress: 'https://sogo.policiacivil.pe.gov.br/SOGo/',
+    },
+    {
+        image:'logoPcpeVirtual.png',
+        imageTitle:'Site do PCPE VIRTUAL',
+        systemName:'PCPE VIRTUAL',
+        systemAddress: 'https://pcpevirtual.policiacivil.pe.gov.br/pcp/open.do?action=open&sys=PCP',
     },
     {
         image:'logoExpressoPe.png',

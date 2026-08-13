@@ -36,12 +36,6 @@ const ListOfImagesAndSystems = [
         systemAddress: 'https://pcpevirtual.policiacivil.pe.gov.br/pcp/open.do?action=open&sys=PCP',
     },
     {
-        image:'logoExpressoPe.png',
-        imageTitle:'Sistema de email expresso PE',
-        systemName:'Expresso',
-        systemAddress: 'https://www.expresso.pe.gov.br/login.php?cd=1',
-    },
-    {
         image:'logoDrivePe.png',
         imageTitle:'Sistema de armazenamento Drive PE',
         systemName:'Drive PE',

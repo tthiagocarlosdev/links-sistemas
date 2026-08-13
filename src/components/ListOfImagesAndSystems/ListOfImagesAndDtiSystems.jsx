@@ -35,18 +35,6 @@ const ListOfImagesAndDtiSystems = [
         systemName:'Teste de impressora',
         systemAddress: 'https://tthiagocarlosdev.github.io/projects_website/projetos/teste_de_impressora/index.html',
     },
-    // {
-    //     image:'logoGlpi.png',
-    //     imageTitle:'Teste',
-    //     systemName:'GLPI',
-    //     systemAddress: 'https://glpi.pc.pe.gov.br/',
-    // },
-    // {
-    //     image:'logoPcpeBrasaoOuroFundoCinzaEscuro.png',
-    //     imageTitle:'Sistema de Procedimentos Policiais para treinamento.',
-    //     systemName:'SPP TREINAMENTO',
-    //     systemAddress: 'https://spp-treinamento.pc.pe.gov.br/#/controle',
-    // },
     {
         image:'logoPcpeBrasaoMidnightBlueFundoBranco.png',
         imageTitle:'Sistema de Controle de Permissões',
@@ -59,12 +47,6 @@ const ListOfImagesAndDtiSystems = [
         systemName:'Endereços e Telefones',
         systemAddress: 'https://tthiagocarlosdev.github.io/projects_website/projetos/telefones_enderecos_pcpe/index.html',
     },
-    // {
-    //     image:'imagemTeste.png',
-    //     imageTitle:'Acompanhamento do Vencimento dos Certificados Digitais!',
-    //     systemName:'CERTIFICADOS DIGITAIS',
-    //     systemAddress: 'https://app.powerbi.com/view?r=eyJrIjoiN2Y2ODBkYTktMWQ1Zi00YzA0LWExYzUtMjdhMDE4ODNhODE3IiwidCI6Ijk3ZjU2ODZlLTBlM2QtNDAzNS04MjZkLTMwM2EzMmI3Mjk0MiJ9',
-    // },
 ];
 
 export default ListOfImagesAndDtiSystems;

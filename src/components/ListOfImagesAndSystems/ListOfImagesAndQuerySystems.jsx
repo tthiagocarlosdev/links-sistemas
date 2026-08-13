@@ -24,10 +24,10 @@ const ListOfImagesAndQuerySystems = [
         systemAddress: 'https://certidao.sds.pe.gov.br/#',
     },
     {
-        image:'logoSeresSiap.png',
+        image:'logoSecretariadeAdministracaoPenitenciariaERessocializacao350x350.png',
         imageTitle:'Sistema Integrado de Administração Prisional',
         systemName:'SIAP',
-        systemAddress: 'https://www.siap.pe.gov.br/SIAP/public/pages/login.jsf',
+        systemAddress: 'https://servicos.sds.pe.gov.br/portal/public/pages/login.jsf',
     },
     {
         image:'logoPcpeBrasaoOuroFundoBranco.png',
@@ -47,12 +47,6 @@ const ListOfImagesAndQuerySystems = [
         systemName:'Receita Federal',
         systemAddress: 'https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp',
     },
-    // {
-    //     image:'logoDefesaSocial.png',
-    //     imageTitle:'Gerência Geral de Análise Criminal e Estatística',
-    //     systemName:'SACE',
-    //     systemAddress: 'https://www.sds.pe.gov.br/sace/login',
-    // },
     {
         image:'autoVision350x350.png',
         imageTitle:'Sistema de consulta Autovision',

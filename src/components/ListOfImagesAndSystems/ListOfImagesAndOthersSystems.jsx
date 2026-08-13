@@ -1,10 +1,4 @@
 const ListOfImagesAndOthersSystems = [
-    // {
-    //     image:'logoGreenlight.png',
-    //     imageTitle:'Sistema de videoconferência do Governo de Pernambuco!',
-    //     systemName:'GreenLight',
-    //     systemAddress: 'https://videoconferencia.pe.gov.br/b/',
-    // },
     {
         image:'portaoDoServidor.png',
         imageTitle:'Portal do Funcionário do Governo de Pernambuco',
@@ -17,12 +11,6 @@ const ListOfImagesAndOthersSystems = [
         systemName:'CONTRA-CHEQUE',
         systemAddress: 'https://www.sare.pe.gov.br/contracheque/',
     },
-    // {
-    //     image:'logoDiarias.png',
-    //     imageTitle:'sistema de Diárias do portal da transparência do Governo de Pernambuco',
-    //     systemName:'DIÁRIAS',
-    //     systemAddress: 'http://web.transparencia.pe.gov.br/despesas/desp-diarias/',
-    // },
     {
         image:'logoPcpeBrasaoOuroFundoBranco.png',
         imageTitle:'Sistema de Controle de Diárias Polícia Civil de Pernambuco',

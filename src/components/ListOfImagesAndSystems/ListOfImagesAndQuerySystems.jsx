@@ -50,7 +50,7 @@ const ListOfImagesAndQuerySystems = [
     {
         image:'logoRuscker.png',
         imageTitle:'Ruscker',
-        systemName:'Ruscker',
+        systemName:'Argos',
         systemAddress: 'https://digital.seplag.pe.gov.br/admin/login',
     },
     {

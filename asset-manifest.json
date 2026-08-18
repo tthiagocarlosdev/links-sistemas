@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/links-sistemas/static/css/main.8e4c6955.css",
-    "main.js": "/links-sistemas/static/js/main.0c47bc82.js",
+    "main.js": "/links-sistemas/static/js/main.c70c07b6.js",
     "static/media/brasaoPcpeFundoBranco_350x350.png": "/links-sistemas/static/media/brasaoPcpeFundoBranco_350x350.d040b759a8670441e744.png",
     "static/media/brasaoPcpeFundoPretoContornoBranco_350x350.png": "/links-sistemas/static/media/brasaoPcpeFundoPretoContornoBranco_350x350.37e20c621bea7c9c9e98.png",
+    "static/media/logoRuscker.png": "/links-sistemas/static/media/logoRuscker.cec144946e138f39f78c.png",
+    "static/media/logoQlikView.png": "/links-sistemas/static/media/logoQlikView.8a1de8cd2d7d3328d3b5.png",
     "static/media/logoSecretariadeAdministracaoPenitenciariaERessocializacao350x350.png": "/links-sistemas/static/media/logoSecretariadeAdministracaoPenitenciariaERessocializacao350x350.c5cb5d3bec8bb95ac571.png",
     "static/media/portaoDoServidor.png": "/links-sistemas/static/media/portaoDoServidor.b68a76290dc374195013.png",
     "static/media/brasaoPcpeFundoPreto_350x350.png": "/links-sistemas/static/media/brasaoPcpeFundoPreto_350x350.071917e929a1b7303b44.png",
@@ -39,10 +41,10 @@
     "index.html": "/links-sistemas/index.html",
     "static/media/circle-arrow-up-solid.svg": "/links-sistemas/static/media/circle-arrow-up-solid.52e210ec10e2ae4132017c618127958a.svg",
     "main.8e4c6955.css.map": "/links-sistemas/static/css/main.8e4c6955.css.map",
-    "main.0c47bc82.js.map": "/links-sistemas/static/js/main.0c47bc82.js.map"
+    "main.c70c07b6.js.map": "/links-sistemas/static/js/main.c70c07b6.js.map"
   },
   "entrypoints": [
     "static/css/main.8e4c6955.css",
-    "static/js/main.0c47bc82.js"
+    "static/js/main.c70c07b6.js"
   ]
 }

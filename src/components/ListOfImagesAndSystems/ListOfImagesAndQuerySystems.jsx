@@ -36,6 +36,24 @@ const ListOfImagesAndQuerySystems = [
         systemAddress: 'https://spba.pc.pe.gov.br/spba/#/controle',
     },
     {
+        image:'brasaoPcpeFundoPreto_350x350.png',
+        imageTitle:'PAC - Plataforma de Análise Criminal',
+        systemName:'PAC',
+        systemAddress: 'https://pac.unestac.pc.pe.gov.br/login',
+    },
+    {
+        image:'logoQlikView.png',
+        imageTitle:'QlikView - AccessPoint',
+        systemName:'QlikView',
+        systemAddress: 'http://200.238.83.25/qlikview/FormLogin.htm',
+    },
+    {
+        image:'logoRuscker.png',
+        imageTitle:'Ruscker',
+        systemName:'Ruscker',
+        systemAddress: 'https://digital.seplag.pe.gov.br/admin/login',
+    },
+    {
         image:'logoConselhoNacionalDeJustica.png',
         imageTitle:'Banco Nacional de Mandados de Prisão',
         systemName:'BNMP',
@@ -71,6 +89,12 @@ const ListOfImagesAndQuerySystems = [
         systemName:'Infopol',
         systemAddress: 'http://200.238.83.36/pernambuco/',
     },
+    // {
+    //     image:'',
+    //     imageTitle:'',
+    //     systemName:'',
+    //     systemAddress: '',
+    // },
 ];
 
 export default ListOfImagesAndQuerySystems;

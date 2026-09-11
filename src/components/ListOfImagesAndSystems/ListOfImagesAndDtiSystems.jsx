@@ -47,6 +47,12 @@ const ListOfImagesAndDtiSystems = [
         systemName:'Endereços e Telefones',
         systemAddress: 'https://tthiagocarlosdev.github.io/projects_website/projetos/telefones_enderecos_pcpe/index.html',
     },
+    {
+        image:'logoPfsense.png',
+        imageTitle:'pfSense - VPN',
+        systemName:'pfsense',
+        systemAddress: 'https://10.200.0.1:8080/index.php',
+    },
 ];
 
 export default ListOfImagesAndDtiSystems;

@@ -31,15 +31,15 @@ const ListOfImagesAndOthersSystems = [
     },
     {
         image:'logoBancoDoBrasil.png',
-        imageTitle:'Teste',
+        imageTitle:'Soluções exclusivas para realizar depósitos judiciais com comodidade e agilidade.',
         systemName:'DEPÓSITOS JUDICIAIS',
         systemAddress: 'https://www.bb.com.br/pbb/pagina-inicial/setor-publico/judiciario/deposito-judicial#/',
     },
     {
-        image:'logoSiteGeradorDeSenha.png',
-        imageTitle:'Sistema de senhas seguras.',
-        systemName:'GERADOR DE SENHA',
-        systemAddress: 'https://tthiagocarlosdev.github.io/geradordesenha/',
+        image:'logoAvast.png',
+        imageTitle:'Crie senhas fortes e seguras para suas contas online com nosso gerador de senhas aleatórias.',
+        systemName:'Criar senha',
+        systemAddress: 'https://www.avast.com/pt-br/random-password-generator#pc',
     },
 ];
 

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/links-sistemas/static/css/main.8e4c6955.css",
-    "main.js": "/links-sistemas/static/js/main.9d3edd1a.js",
+    "main.js": "/links-sistemas/static/js/main.30d8cd7f.js",
     "static/media/brasaoPcpeFundoBranco_350x350.png": "/links-sistemas/static/media/brasaoPcpeFundoBranco_350x350.d040b759a8670441e744.png",
     "static/media/brasaoPcpeFundoPretoContornoBranco_350x350.png": "/links-sistemas/static/media/brasaoPcpeFundoPretoContornoBranco_350x350.37e20c621bea7c9c9e98.png",
     "static/media/logoRuscker.png": "/links-sistemas/static/media/logoRuscker.cec144946e138f39f78c.png",
@@ -9,6 +9,8 @@
     "static/media/logoSecretariadeAdministracaoPenitenciariaERessocializacao350x350.png": "/links-sistemas/static/media/logoSecretariadeAdministracaoPenitenciariaERessocializacao350x350.c5cb5d3bec8bb95ac571.png",
     "static/media/portaoDoServidor.png": "/links-sistemas/static/media/portaoDoServidor.b68a76290dc374195013.png",
     "static/media/brasaoPcpeFundoPreto_350x350.png": "/links-sistemas/static/media/brasaoPcpeFundoPreto_350x350.071917e929a1b7303b44.png",
+    "static/media/logoAvast.png": "/links-sistemas/static/media/logoAvast.21b3b9acf9f9e428268a.png",
+    "static/media/logoPfsense.png": "/links-sistemas/static/media/logoPfsense.c27b4fc04274c32218c5.png",
     "static/media/logoTesteDeImpressora.png": "/links-sistemas/static/media/logoTesteDeImpressora.bc3034a5e69708c09721.png",
     "static/media/enderecosETelefonesPcpe.png": "/links-sistemas/static/media/enderecosETelefonesPcpe.a61e29315e8ed2b9d76b.png",
     "static/media/logoRelatorioDeServicosExternos.png": "/links-sistemas/static/media/logoRelatorioDeServicosExternos.06126c148e4ef4ae0b6a.png",
@@ -41,10 +43,10 @@
     "index.html": "/links-sistemas/index.html",
     "static/media/circle-arrow-up-solid.svg": "/links-sistemas/static/media/circle-arrow-up-solid.52e210ec10e2ae4132017c618127958a.svg",
     "main.8e4c6955.css.map": "/links-sistemas/static/css/main.8e4c6955.css.map",
-    "main.9d3edd1a.js.map": "/links-sistemas/static/js/main.9d3edd1a.js.map"
+    "main.30d8cd7f.js.map": "/links-sistemas/static/js/main.30d8cd7f.js.map"
   },
   "entrypoints": [
     "static/css/main.8e4c6955.css",
-    "static/js/main.9d3edd1a.js"
+    "static/js/main.30d8cd7f.js"
   ]
 }

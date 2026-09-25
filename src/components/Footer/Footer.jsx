@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css'
+import { Link } from 'react-scroll';
 import { ReactComponent as CircleArrowUp } from '../../img/circle-arrow-up-solid.svg';
 
 
@@ -10,7 +11,7 @@ const Footer = () => {
     <footer className="footer displayFlexCenterCenter">
       <div className="containerFooterWidth displayFlexCenterCenter pageWidth">
         <p className="footerText displayFlexCenterCenter">Desenvolvido por <a href={enderecoDoPortifolio} target='_blanck'> tthiagocarlosdev</a> </p>
-        <a className="footerArrow displayFlexCenterCenter" href="#sectionHeader"> <CircleArrowUp className="fa-circle-arrow-up" /> </a>
+        <Link className='footerArrow displayFlexCenterCenter' to="sectionHeader" spy={true} smooth={true} offset={0} duration={1000} activeClass="active"> <CircleArrowUp className="fa-circle-arrow-up" /> </Link>
       </div>
     </footer>
   );

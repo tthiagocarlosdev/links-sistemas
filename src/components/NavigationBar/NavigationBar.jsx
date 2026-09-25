@@ -5,11 +5,11 @@ import { Link } from 'react-scroll';
 import './NavigationBar.css'
 
 const NavigationBar = () => {
-    const generalSection = '#generalSection';
-    const queriesSection = '#queriesSection';
-    const otherSection = '#otherSection';
-    const dtiSection = '#dtiSection';
-    const downloadsSection = '#downloadsSection';
+    const generalSection = 'generalSection';
+    const queriesSection = 'queriesSection';
+    const otherSection = 'otherSection';
+    const dtiSection = 'dtiSection';
+    const downloadsSection = 'downloadsSection';
 
     // Função para formatar a primeira letra em maiúsculo
     const firstLetterCapitalized = (text) => {
@@ -54,11 +54,11 @@ const NavigationBar = () => {
                     <p className="paragraphDateAndTime">{dataHoraAtual}</p>
                 </div>
                 <nav className="navigationBox displayFlexCenterCenter">
-                    <Link className='navigationButtons' to="generalSection" spy={true} smooth={true} offset={0} duration={500} activeClass="active">Geral</Link>
-                    <Link className='navigationButtons' to="queriesSection" spy={true} smooth={true} offset={0} duration={500} activeClass="active">Consultas</Link>
-                    <Link className='navigationButtons' to="otherSection" spy={true} smooth={true} offset={0} duration={500} activeClass="active">Outros</Link>
-                    <Link className='navigationButtons' to="dtiSection" spy={true} smooth={true} offset={0} duration={500} activeClass="active">DTI</Link>
-                    <Link className='navigationButtons' to="downloadsSection" spy={true} smooth={true} offset={0} duration={500} activeClass="active">Downloads</Link>
+                    <Link className='navigationButtons' to={generalSection} spy={true} smooth={true} offset={0} duration={500} activeClass="active">Geral</Link>
+                    <Link className='navigationButtons' to={queriesSection} spy={true} smooth={true} offset={0} duration={500} activeClass="active">Consultas</Link>
+                    <Link className='navigationButtons' to={otherSection} spy={true} smooth={true} offset={0} duration={500} activeClass="active">Outros</Link>
+                    <Link className='navigationButtons' to={dtiSection} spy={true} smooth={true} offset={0} duration={500} activeClass="active">DTI</Link>
+                    <Link className='navigationButtons' to={downloadsSection} spy={true} smooth={true} offset={0} duration={500} activeClass="active">Downloads</Link>
                 </nav>
             </div>
         </section>

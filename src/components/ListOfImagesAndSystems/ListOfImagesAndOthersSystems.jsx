@@ -41,6 +41,12 @@ const ListOfImagesAndOthersSystems = [
         systemName:'Criar senha',
         systemAddress: 'https://www.avast.com/pt-br/random-password-generator#pc',
     },
+    {
+        image:'brasaoPcpeFundoPreto_350x350.png',
+        imageTitle:'Sistema Policial de Inventário',
+        systemName:'SPI1',
+        systemAddress: 'https://spi1.pc.pe.gov.br/',
+    },
 ];
 
 export default ListOfImagesAndOthersSystems;

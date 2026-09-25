@@ -6,7 +6,7 @@ import WebsiteCards from '../WebsiteCards/WebsiteCards';
 
 const OthersLinksSection = () => {
     return ( 
-        <section id="otherSection" className="linksSections othersLinksSection pageWidth displayFlexCenterCenter">
+        <section id="otherSection" className="section bg-blue linksSections othersLinksSection pageWidth displayFlexCenterCenter">
         <SectionSubtitle sectionSubtitle='Outros Sistemas' />
 
         <div className="projectCardContainer displayFlexCenterCenter">

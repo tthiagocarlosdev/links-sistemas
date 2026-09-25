@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+/* Biblioteca react-scroll -> facilita o scroll suave e gerencia a classe "ativa" no link correto baseando-se na posição atual da tela */
+import { Link } from 'react-scroll';
 
 import './NavigationBar.css'
 
@@ -52,11 +54,11 @@ const NavigationBar = () => {
                     <p className="paragraphDateAndTime">{dataHoraAtual}</p>
                 </div>
                 <nav className="navigationBox displayFlexCenterCenter">
-                    <a className='navigationButtons' href={generalSection}  rel="noopener noreferrer">Geral</a>
-                    <a className='navigationButtons' href={queriesSection}  rel="noopener noreferrer">Consultas</a>
-                    <a className='navigationButtons' href={otherSection}  rel="noopener noreferrer">Outros</a>
-                    <a className='navigationButtons' href={dtiSection}  rel="noopener noreferrer">DTI</a>
-                    <a className='navigationButtons' href={downloadsSection}  rel="noopener noreferrer">Downloads</a>
+                    <Link className='navigationButtons' to="generalSection" spy={true} smooth={true} offset={0} duration={500} activeClass="active">Geral</Link>
+                    <Link className='navigationButtons' to="queriesSection" spy={true} smooth={true} offset={0} duration={500} activeClass="active">Consultas</Link>
+                    <Link className='navigationButtons' to="otherSection" spy={true} smooth={true} offset={0} duration={500} activeClass="active">Outros</Link>
+                    <Link className='navigationButtons' to="dtiSection" spy={true} smooth={true} offset={0} duration={500} activeClass="active">DTI</Link>
+                    <Link className='navigationButtons' to="downloadsSection" spy={true} smooth={true} offset={0} duration={500} activeClass="active">Downloads</Link>
                 </nav>
             </div>
         </section>

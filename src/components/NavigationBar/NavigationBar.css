@@ -30,10 +30,11 @@
     height: 100%;
     flex: 1 1 50%;
     justify-content: flex-end;
-    gap: 1.25rem;
+    gap: 1rem;
 }
 
 .navigationButtons {
+    cursor: pointer;
     text-decoration: none;
     text-align: center;
 	color: var(--white);
@@ -42,25 +43,19 @@
     text-transform: uppercase;
     transition: 0.5s all ease;
     position: relative;
+    padding: 0.5rem;
 }
 
-.navigationButtons::before {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 50%;
-    width: 0;
-    height: 2px;
+.navigationButtons:hover {
     background-color: var(--white);
-    transition: width 0.3s ease, left 0.3s ease, transform 0.3s ease; 
-    transform: scaleX(0);
-    transform-origin: center bottom;
+    border-radius: 0.3rem;
+    color: var(--blue);
 }
 
-.navigationButtons:hover::before {
-    width: 100%;
-    left: 0;
-    transform: scaleX(1);
+.navigationBox a.active {
+    background-color: var(--white);
+    border-radius: 0.3rem;
+    color: var(--blue);
 }
 
 /* media  media  media  media  media  media  media  media  media  media  media */
